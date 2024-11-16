@@ -335,3 +335,55 @@ Received Import Request.
 Start importing Assets/Race Track Pack/Terrian Textures/Rock Soil/Materials/Rock Soil AlbedoTransparency.mat using Guid(ca288c17cd191a848a242839f61bc10f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a488d0d1865152c82d458b3030aba02') in 0.0410992 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 170.954549 seconds.
+  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials/BlackwalnutAutumn02.mat
+  artifactKey: Guid(fcd032e98aad39340a6022e3315eb46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials/BlackwalnutAutumn02.mat using Guid(fcd032e98aad39340a6022e3315eb46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a3a7ee2463475bc1ce8cdd602dff73') in 7.6658875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/mountain (3).prefab
+  artifactKey: Guid(b9061b7bfa145e24a91bde1cc531ee95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/mountain (3).prefab using Guid(b9061b7bfa145e24a91bde1cc531ee95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce9797d49fa355ca550d11c7d72b2b85') in 0.1978717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.551189 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Fact_Structr.prefab
+  artifactKey: Guid(973641195223a864ba42e364eb6a7820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Fact_Structr.prefab using Guid(973641195223a864ba42e364eb6a7820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97bacae00c21d9c620bebc1c2bf7b619') in 0.0772836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Speed_breaker.prefab
+  artifactKey: Guid(d4a428190ec2de8478b155147a1d1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Speed_breaker.prefab using Guid(d4a428190ec2de8478b155147a1d1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5777f5b0eae1d2400536e48d03f2dfca') in 0.0608394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Racing_Sign.prefab
+  artifactKey: Guid(faf8b92fa1fc183478ebc364e3f96138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Racing_Sign.prefab using Guid(faf8b92fa1fc183478ebc364e3f96138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7704767aefe56bf1964732ba5e529d27') in 0.0500303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Net bar.prefab
+  artifactKey: Guid(c5521214aa005f84dbfb7c0aeabb2440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Net bar.prefab using Guid(c5521214aa005f84dbfb7c0aeabb2440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aefc5c47326be4258f3c7905adc3e605') in 0.1109907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
