@@ -586,3 +586,97 @@ Received Import Request.
 Start importing Assets/Materials/New Material.mat using Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c1112d5d5f105b1951266bbae35d66e') in 0.1277335 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 271.568889 seconds.
+  path: Assets/Snow mountain tracks/Resources
+  artifactKey: Guid(a739afc85f82c6e4484de20af2bc08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow mountain tracks/Resources using Guid(a739afc85f82c6e4484de20af2bc08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96d177147904a0ce62947dd6a60511e1') in 0.0120717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.431196 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bbdf296d07ece24a148f3c9091c7e5a') in 0.1506431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.359614 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/mountain.FBX
+  artifactKey: Guid(13f795b7732ab2f479601ab748af4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/mountain.FBX using Guid(13f795b7732ab2f479601ab748af4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a0d5c815be8b9eaf19bc5e80f1f5db4') in 0.8868027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Terrain.asset
+  artifactKey: Guid(cfb642e5ebbe6db4db73016b2dbe9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/Terrain.asset using Guid(cfb642e5ebbe6db4db73016b2dbe9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree tree_a must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_b must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_c must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_d must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_e must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_f must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_g must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_h must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_i must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_j must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree_k must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '48b254f15e7677431db32aa98d6217b0') in 1.1780131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.857431 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials
+  artifactKey: Guid(1301d5b8947fc5c469d795160b8ae1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials using Guid(1301d5b8947fc5c469d795160b8ae1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67fb0ba1ea815fae27d0e3e5f8d02d36') in 0.0038259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials/mesh_low.mat
+  artifactKey: Guid(1f47aff05ebb9f3459f90a140ada81b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials/mesh_low.mat using Guid(1f47aff05ebb9f3459f90a140ada81b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '567a6c7e7c89e61cecd00198c84f9d4f') in 0.0629568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials/No Name.mat
+  artifactKey: Guid(c764985fe75b8994fb79a7c644afabc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials/No Name.mat using Guid(c764985fe75b8994fb79a7c644afabc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25082eb1d1c71a04b8606018ac23dbfe') in 0.0448465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials/sky.mat
+  artifactKey: Guid(2428d06d7a2314f429d86b01480b3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials/sky.mat using Guid(2428d06d7a2314f429d86b01480b3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2556dd9136bb96518e56c82cf4ea52e') in 0.0845794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.650970 seconds.
+  path: Assets/ex.unity
+  artifactKey: Guid(3ef6a00bc4649e640aeae37c48e1f131) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ex.unity using Guid(3ef6a00bc4649e640aeae37c48e1f131) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/ex.unity additively'
+Loaded scene 'Assets/ex.unity'
+	Deserialize:            126.530 ms
+	Integration:            312.638 ms
+	Integration of assets:  0.112 ms
+	Thread Wait Time:       -0.046 ms
+	Total Operation Time:   439.234 ms
+ -> (artifact id: '9bb03ada374c71c59ad13b8a06fba38f') in 8.9323201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,566 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.22f1 (001fa5a8e29a) revision 8101'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 5966 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+52587
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18784]  Target information:
+
+Player connection [18784]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 522247443 [EditorId] 522247443 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18784]  * "[IP] 192.168.81.198 [Port] 0 [Flags] 2 [Guid] 522247443 [EditorId] 522247443 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/RacingGame/RacingGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     2983 MB
+    Driver:   30.0.13044.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004091 seconds.
+- Loaded All Assemblies, in  1.762 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.005 seconds
+Domain Reload Profiling: 3767ms
+	BeginReloadAssembly (888ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (231ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (849ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (493ms)
+			TypeCache.Refresh (488ms)
+				TypeCache.ScanAssembly (429ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (86ms)
+			SetLoadedEditorAssemblies (39ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (797ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.846 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.273 seconds
+Domain Reload Profiling: 14135ms
+	BeginReloadAssembly (1731ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (128ms)
+	RebuildCommonClasses (220ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (6661ms)
+		LoadAssemblies (5235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1768ms)
+			TypeCache.Refresh (1288ms)
+				TypeCache.ScanAssembly (1164ms)
+			BuildScriptInfoCaches (214ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (5275ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (422ms)
+			ProcessInitializeOnLoadAttributes (1959ms)
+			ProcessInitializeOnLoadMethodAttributes (497ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 35.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5897 unused Assets / (4.0 MB). Loaded Objects now: 6675.
+Memory consumption went from 189.1 MB to 185.1 MB.
+Total: 93.254600 ms (FindLiveObjects: 6.294500 ms CreateObjectMapping: 2.196200 ms MarkObjects: 64.656900 ms  DeleteObjects: 20.064300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 140911.559699 seconds.
+  path: Assets/ex.unity
+  artifactKey: Guid(3ef6a00bc4649e640aeae37c48e1f131) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ex.unity using Guid(3ef6a00bc4649e640aeae37c48e1f131) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '592eaa2d3dc8c924e270fcbc9067b7ac') in 0.5312051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Stylized Nature Environment/Textures/ground_a_normal.psd
+  artifactKey: Guid(1b545f5e15dc8744389cc31f850159fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Textures/ground_a_normal.psd using Guid(1b545f5e15dc8744389cc31f850159fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c5916a3e948a57e3dc93a02c5aac7db') in 0.2687433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_i.fbx
+  artifactKey: Guid(679834144b39ebb49bfc8566678cec1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_i.fbx using Guid(679834144b39ebb49bfc8566678cec1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1c103d4229ccc76452cf7cf3bd0543f') in 0.1948368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stylized Nature Environment/Nature/foliage02.psd
+  artifactKey: Guid(0926a7c3dcfd7de44bf3ddd000f5b798) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/foliage02.psd using Guid(0926a7c3dcfd7de44bf3ddd000f5b798) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68caf235ddc5c6736023b77cea8b094b') in 0.0801167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground_aground_a_normald261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(44e8efc007db67246a0dead2b712add9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground_aground_a_normald261c09ae55ba1e3.terrainlayer using Guid(44e8efc007db67246a0dead2b712add9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff6b1141450644e3978ce8e4848f59b6') in 0.0814531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/tree_j.prefab
+  artifactKey: Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Prefabs/tree_j.prefab using Guid(860cb32684b3a554ca851ba50a94d0cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63bae23ed017fdd169ef2d154149b364') in 0.0523373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Stylized Nature Environment/Nature/foliage05.psd
+  artifactKey: Guid(d7a333dce69eb6747bd4863e0eefe9e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/foliage05.psd using Guid(d7a333dce69eb6747bd4863e0eefe9e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5e42a0ad235702433026d46e86b70c5') in 0.0892848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_b.fbx
+  artifactKey: Guid(9d4e7a78f889a844ca0d91916d92beb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_b.fbx using Guid(9d4e7a78f889a844ca0d91916d92beb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f2785ccf1cac627d02ba7985f9773c0') in 0.0574102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Stylized Nature Environment/Textures/sky.png
+  artifactKey: Guid(0962663d58acc8647946cab10746e086) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Textures/sky.png using Guid(0962663d58acc8647946cab10746e086) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be4f8e3d79f6ffd6c2777bc7a0c83555') in 0.0635742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/tree_b.prefab
+  artifactKey: Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Prefabs/tree_b.prefab using Guid(fb3ec1f990e0834459e20e7be2459d63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b907a6026114108da4930f8b2847050a') in 0.0866402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Stylized Nature Environment/PostProcessing Sample/Post-Processing Profile - Spring.asset
+  artifactKey: Guid(a28b07d26b56b3b4e9156f194a72312c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/PostProcessing Sample/Post-Processing Profile - Spring.asset using Guid(a28b07d26b56b3b4e9156f194a72312c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88310f569b75166d1ab5a52d52637fe4') in 0.0362133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/sky.FBX
+  artifactKey: Guid(549f84bbc42ec39489d2d8627dddef59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Terrain/sky.FBX using Guid(549f84bbc42ec39489d2d8627dddef59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f7f69069a33005235c4cb7538bb23c4') in 0.0455108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_a.fbx
+  artifactKey: Guid(d2bbfb4d2d8d8c549bbfc553b28464c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_a.fbx using Guid(d2bbfb4d2d8d8c549bbfc553b28464c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc00a19281aa31234677cda873ac751b') in 0.0601994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Stylized Nature Environment/Nature/Materials/Default.mat
+  artifactKey: Guid(2772c74f6361879409221eb29b573be7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/Materials/Default.mat using Guid(2772c74f6361879409221eb29b573be7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0c8015df48f533e7eee58128450d45a') in 0.1007994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/mountain.FBX
+  artifactKey: Guid(13f795b7732ab2f479601ab748af4249) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Terrain/mountain.FBX using Guid(13f795b7732ab2f479601ab748af4249) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11aa6ac9f874ee7e9767a5cfb7ee5b64') in 0.055816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/New Material.mat using Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09e166d0cddcd6b8e21df601f618cf68') in 0.0406554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials/mesh_low.mat
+  artifactKey: Guid(1f47aff05ebb9f3459f90a140ada81b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials/mesh_low.mat using Guid(1f47aff05ebb9f3459f90a140ada81b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9d144dcbe27cfbaeb906aace0723386') in 0.0489158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Materials/Materials/Grass.mat
+  artifactKey: Guid(aded9747537496842a5614571dfdeb16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Materials/Grass.mat using Guid(aded9747537496842a5614571dfdeb16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '999872ec2e01f932118f7c8eb1cf638c') in 0.0548973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Stylized Nature Environment/Nature/grass02.PSD
+  artifactKey: Guid(3cb61207a9bdaf9478ba2bf776f28693) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/grass02.PSD using Guid(3cb61207a9bdaf9478ba2bf776f28693) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a110b70f11b1b4c8b06d44d6f32f66f9') in 0.0669226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/tree_e.prefab
+  artifactKey: Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Prefabs/tree_e.prefab using Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ff1138c647f966a60b0c054e3d1c783') in 0.0417102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/tree_k.prefab
+  artifactKey: Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Prefabs/tree_k.prefab using Guid(84e38d7f6eafbd44c94f15c42908c48c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d2bf98c1131ff47eb374f0b4c427e33') in 0.0548778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Stylized Nature Environment/Scene/scenario.unity
+  artifactKey: Guid(47cb3adff207dbf4fbee311a2aa8daf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Scene/scenario.unity using Guid(47cb3adff207dbf4fbee311a2aa8daf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f83754ddf8c572763d80fcad3ef941d0') in 0.0494715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Stylized Nature Environment/Scene/scenarioSettings.lighting
+  artifactKey: Guid(716c5944e523909448aa587b1519d4f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Scene/scenarioSettings.lighting using Guid(716c5944e523909448aa587b1519d4f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fab89e85edd4e482e4e2cde7189d8769') in 0.0874405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Stylized Nature Environment/Nature/foliage07-b.psd
+  artifactKey: Guid(03867b1f38d354c43aa1ac903bce5b71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/foliage07-b.psd using Guid(03867b1f38d354c43aa1ac903bce5b71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd34b45cf3c2ac48fc4a4b184b8c92f9e') in 0.0881521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/sky.prefab
+  artifactKey: Guid(ce1c47babe5679143b24221e8878c4dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Prefabs/sky.prefab using Guid(ce1c47babe5679143b24221e8878c4dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e27210ddeed7f986bb2a30cd65bc136') in 0.0510327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials/No Name.mat
+  artifactKey: Guid(c764985fe75b8994fb79a7c644afabc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials/No Name.mat using Guid(c764985fe75b8994fb79a7c644afabc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2222f0882935ef8e52329cee532be388') in 0.0446524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Stylized Nature Environment/Textures/mountain.psd
+  artifactKey: Guid(630076e176ff8b64a879f435be836347) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Textures/mountain.psd using Guid(630076e176ff8b64a879f435be836347) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4363282196984550848446cf5e05a20') in 0.0553354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_c.fbx
+  artifactKey: Guid(b2fbf33844166f447875af48fb38d3dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_c.fbx using Guid(b2fbf33844166f447875af48fb38d3dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c42268ea921b2efd6028a83f8e7d6af8') in 0.0646142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Stylized Nature Environment/Nature/Materials/branch_tex.mat
+  artifactKey: Guid(b8e82f7625bc35e45bc5d380532fa087) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/Materials/branch_tex.mat using Guid(b8e82f7625bc35e45bc5d380532fa087) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9988bfd102a2ba9002a785b7c56ba76') in 0.0387952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_f.fbx
+  artifactKey: Guid(d6390f08259b01b48ab6f39baec54113) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_f.fbx using Guid(d6390f08259b01b48ab6f39baec54113) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '631519eb224a46b9da8ad3770822818d') in 0.0419842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Terrain.asset
+  artifactKey: Guid(cfb642e5ebbe6db4db73016b2dbe9c55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Terrain/Terrain.asset using Guid(cfb642e5ebbe6db4db73016b2dbe9c55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)The tree tree_a must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_b must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_c must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_d must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_e must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_f must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_g must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_h must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_i must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_j must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+The tree tree_k must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 338]
+
+ -> (artifact id: 'fea00aafebae304f0de8f42f3815d368') in 0.5658847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.292511 seconds.
+  path: Assets/Snow mountain tracks/Resources/Materials/barrierMat.mat
+  artifactKey: Guid(a60ebed664270c6448f56932f17da7c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Snow mountain tracks/Resources/Materials/barrierMat.mat using Guid(a60ebed664270c6448f56932f17da7c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56424cd13e7c53867d87f175644d095d') in 0.0499644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

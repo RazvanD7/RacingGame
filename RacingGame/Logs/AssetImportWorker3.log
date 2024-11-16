@@ -327,3 +327,31 @@ Received Import Request.
 Start importing Assets/Race Track Pack/Models/Materials/keyakiPark1LeafShader.mat using Guid(fac6c9050da7c0c449db9e375b21b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c326112181985ec7061698a90f0cdf') in 0.92713 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 671.054609 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/sky.FBX
+  artifactKey: Guid(549f84bbc42ec39489d2d8627dddef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/sky.FBX using Guid(549f84bbc42ec39489d2d8627dddef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a798d42fba0c758fca1e1d6eb51e37bf') in 1.5852662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.494835 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Materials/mountain.mat
+  artifactKey: Guid(83e6d72a3cb722f4dacf83805211b57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Terrain/Materials/mountain.mat using Guid(83e6d72a3cb722f4dacf83805211b57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd78d2c42b2797829aa9268b70ce03d54') in 0.434413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.572203 seconds.
+  path: Assets/Models/Road.prefab
+  artifactKey: Guid(fcfa0383682aba149aec1bd5aa290d65) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/Road.prefab using Guid(fcfa0383682aba149aec1bd5aa290d65) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0ef2e22f28a604332da2c11829c4742c') in 12.4746611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
