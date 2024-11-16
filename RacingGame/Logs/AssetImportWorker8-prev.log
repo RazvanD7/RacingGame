@@ -1,0 +1,265 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.22f1 (001fa5a8e29a) revision 8101'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 5966 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+59424
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16392]  Target information:
+
+Player connection [16392]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3197682557 [EditorId] 3197682557 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16392]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3197682557 [EditorId] 3197682557 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 21.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/RacingGame/RacingGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     2983 MB
+    Driver:   30.0.13044.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006873 seconds.
+- Loaded All Assemblies, in  4.956 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.963 seconds
+Domain Reload Profiling: 7910ms
+	BeginReloadAssembly (2331ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (165ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (345ms)
+	LoadAllAssembliesAndSetupDomain (2047ms)
+		LoadAssemblies (2309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2018ms)
+			TypeCache.Refresh (2013ms)
+				TypeCache.ScanAssembly (1937ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2965ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2697ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (168ms)
+			SetLoadedEditorAssemblies (80ms)
+			BeforeProcessingInitializeOnLoad (228ms)
+			ProcessInitializeOnLoadAttributes (1954ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 29.163 seconds
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.483 seconds
+Domain Reload Profiling: 43350ms
+	BeginReloadAssembly (2324ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (182ms)
+	RebuildCommonClasses (131ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (229ms)
+	LoadAllAssembliesAndSetupDomain (27131ms)
+		LoadAssemblies (5643ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21524ms)
+			TypeCache.Refresh (15050ms)
+				TypeCache.ScanAssembly (11068ms)
+			BuildScriptInfoCaches (3488ms)
+			ResolveRequiredComponents (2891ms)
+	FinalizeReload (13503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8755ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (252ms)
+			BeforeProcessingInitializeOnLoad (947ms)
+			ProcessInitializeOnLoadAttributes (5858ms)
+			ProcessInitializeOnLoadMethodAttributes (1591ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (14ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 21.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5897 unused Assets / (3.1 MB). Loaded Objects now: 6663.
+Memory consumption went from 182.0 MB to 178.9 MB.
+Total: 402.608000 ms (FindLiveObjects: 11.598700 ms CreateObjectMapping: 10.569500 ms MarkObjects: 170.057500 ms  DeleteObjects: 210.370900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137150.813416 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Board3.prefab
+  artifactKey: Guid(eb1bb61d2586eec4da88a31f3c9f75ac) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Board3.prefab using Guid(eb1bb61d2586eec4da88a31f3c9f75ac) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4f7e9386a69ba94a3644ac2c39d662f8') in 12.8871784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002628 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Square_Board_04.prefab
+  artifactKey: Guid(3f5062cda0d5f90418778940af0d86b5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Square_Board_04.prefab using Guid(3f5062cda0d5f90418778940af0d86b5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f429cbda9880ac0969cbfaf0f2e43f30') in 0.1017753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Race Track Pack/Textures/Track Props/Road Track for substance 05_Track_Props_AlbedoTransparency.png
+  artifactKey: Guid(5d768f44ac1d5bc4a87ad0e3063aff1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Textures/Track Props/Road Track for substance 05_Track_Props_AlbedoTransparency.png using Guid(5d768f44ac1d5bc4a87ad0e3063aff1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3da47a8579e1b16cb43b1d8fc235ac65') in 1.2608369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Fact_Structr.prefab
+  artifactKey: Guid(973641195223a864ba42e364eb6a7820) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Fact_Structr.prefab using Guid(973641195223a864ba42e364eb6a7820) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e5e0278a28c0863e39c3066a5db2273b') in 0.0954509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecd30b73be3b3ea73acec728d04994cb') in 0.0730277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Race Track Pack/Terrian Textures/Rock Soil/Rock Soil Normal.png
+  artifactKey: Guid(a768ae6714c7a4b4fad6dd8d2a5def97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Terrian Textures/Rock Soil/Rock Soil Normal.png using Guid(a768ae6714c7a4b4fad6dd8d2a5def97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9239cdc7354b23dcde60d8c490acdb0') in 0.1979092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Race Track Pack/Terrian Textures/Solid Rock/Solid Rock MetallicSmoothness.png
+  artifactKey: Guid(5b78b619d45fe3f4d9286b6262efb08d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Terrian Textures/Solid Rock/Solid Rock MetallicSmoothness.png using Guid(5b78b619d45fe3f4d9286b6262efb08d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '384e9458b010ff9ea90fece0d0f4180c') in 0.1112997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Snow mountain tracks/Resources/Materials/barrierMat.mat
+  artifactKey: Guid(a60ebed664270c6448f56932f17da7c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Snow mountain tracks/Resources/Materials/barrierMat.mat using Guid(a60ebed664270c6448f56932f17da7c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5cf1c8be383d06e67c2cb567350c52e') in 0.3799135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Camp.prefab
+  artifactKey: Guid(c2886de63531849488f0629b9bedcf30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Camp.prefab using Guid(c2886de63531849488f0629b9bedcf30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b80cbfc4171eebaf8464b3df12c34e8') in 0.5436063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Race Track Pack/Terrian Textures/Clay/NewLayer.terrainlayer
+  artifactKey: Guid(6f04da79046e2444aaf11f05839da269) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Terrian Textures/Clay/NewLayer.terrainlayer using Guid(6f04da79046e2444aaf11f05839da269) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8bed4308047613635aaaa0e483963df') in 0.1329148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
