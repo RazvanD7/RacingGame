@@ -15,7 +15,7 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52805
+58852
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8272]  Target information:
+Player connection [23888]  Target information:
 
-Player connection [8272]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3134587225 [EditorId] 3134587225 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23888]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3982600790 [EditorId] 3982600790 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8272]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3134587225 [EditorId] 3134587225 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23888]  * "[IP] 192.168.81.198 [Port] 0 [Flags] 2 [Guid] 3982600790 [EditorId] 3982600790 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23888] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23888] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
@@ -93,319 +93,361 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007018 seconds.
-- Loaded All Assemblies, in  0.861 seconds
+Registered in 0.005174 seconds.
+- Loaded All Assemblies, in  1.741 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.729 seconds
-Domain Reload Profiling: 1587ms
-	BeginReloadAssembly (383ms)
+- Finished resetting the current domain, in  1.100 seconds
+Domain Reload Profiling: 2839ms
+	BeginReloadAssembly (1129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (299ms)
-		LoadAssemblies (378ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (1120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (287ms)
-			TypeCache.Refresh (284ms)
-				TypeCache.ScanAssembly (251ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (327ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (730ms)
+	FinalizeReload (1102ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (650ms)
+		SetupLoadedEditorAssemblies (958ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (15ms)
-			ProcessInitializeOnLoadAttributes (445ms)
-			ProcessInitializeOnLoadMethodAttributes (129ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (631ms)
+			ProcessInitializeOnLoadMethodAttributes (230ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.573 seconds
-Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.630 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.721 seconds
-Domain Reload Profiling: 4291ms
-	BeginReloadAssembly (1175ms)
+- Finished resetting the current domain, in  2.167 seconds
+Domain Reload Profiling: 5797ms
+	BeginReloadAssembly (1586ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (66ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (62ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1242ms)
-		LoadAssemblies (883ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1885ms)
+		LoadAssemblies (1470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (533ms)
-			TypeCache.Refresh (370ms)
-				TypeCache.ScanAssembly (333ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1722ms)
+		AnalyzeDomain (696ms)
+			TypeCache.Refresh (482ms)
+				TypeCache.ScanAssembly (415ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2170ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1169ms)
+		SetupLoadedEditorAssemblies (1410ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (901ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (1009ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5897 unused Assets / (4.3 MB). Loaded Objects now: 6668.
-Memory consumption went from 182.6 MB to 178.3 MB.
-Total: 18.530600 ms (FindLiveObjects: 1.389300 ms CreateObjectMapping: 1.444200 ms MarkObjects: 9.048300 ms  DeleteObjects: 6.642400 ms)
+Unloading 5895 unused Assets / (4.6 MB). Loaded Objects now: 6666.
+Memory consumption went from 180.6 MB to 176.0 MB.
+Total: 28.405900 ms (FindLiveObjects: 1.683800 ms CreateObjectMapping: 1.659100 ms MarkObjects: 14.860900 ms  DeleteObjects: 10.196200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 179950.750229 seconds.
-  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials
-  artifactKey: Guid(a3be450731338c64a96bdeee9c99b295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials using Guid(a3be450731338c64a96bdeee9c99b295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2e62d5a6cd98e70927ec86e18da9450') in 0.0137098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 202183.283182 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_01_free_obs.prefab
+  artifactKey: Guid(63f7e3a5ea486a9438b4cd3142c7dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_01_free_obs.prefab using Guid(63f7e3a5ea486a9438b4cd3142c7dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbbd3842b35c60f81219ee1bbc232ec') in 0.872465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.837599 seconds.
-  path: Assets/Gwangju_3D asset/Common_Assets
-  artifactKey: Guid(3369d838ac1315148aa83716372c9666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gwangju_3D asset/Common_Assets using Guid(3369d838ac1315148aa83716372c9666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '240a9b1be761e71af0fd60e853cf0b67') in 0.0009258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000118 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Sign_free.fbx
+  artifactKey: Guid(fd3accc54eafe0a4c8fbd42c3b715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Sign_free.fbx using Guid(fd3accc54eafe0a4c8fbd42c3b715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa91271319fdaad7c197bf6ed0c8991e') in 0.0955366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.996129 seconds.
-  path: Assets/Race Track Pack/Scenes
-  artifactKey: Guid(4bdabf8b208944e41aba86ee4ea059ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Scenes using Guid(4bdabf8b208944e41aba86ee4ea059ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f0ac63fc790182726c16ebcf9688f97') in 0.002177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000162 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Barrier_free.fbx
+  artifactKey: Guid(fc7e863a8c68106469f94461e8a8cec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Barrier_free.fbx using Guid(fc7e863a8c68106469f94461e8a8cec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44236cd5948c278fdc1b0fdfac3b3aab') in 0.0794846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.308302 seconds.
-  path: Assets/Snow mountain tracks/Terrain textures
-  artifactKey: Guid(22f3533c404577e46af11e495cc1bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snow mountain tracks/Terrain textures using Guid(22f3533c404577e46af11e495cc1bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '629efda7e0a7158b435276c18b271a88') in 0.0018221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000047 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_for_banner_free_obs.prefab
+  artifactKey: Guid(27f69fe37e0c8c44f97be1aba8f406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_for_banner_free_obs.prefab using Guid(27f69fe37e0c8c44f97be1aba8f406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d2c546bf088f36b7d32a93351680aad') in 0.0366553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.164753 seconds.
-  path: Assets/Snow mountain tracks/Terrain textures/Normal
-  artifactKey: Guid(a3b246be4e1ebc543ab280563aac7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snow mountain tracks/Terrain textures/Normal using Guid(a3b246be4e1ebc543ab280563aac7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8747c9b02dbb5d0d3c18bb69bf2832eb') in 0.0017718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000070 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Pole_light_free_obs.prefab
+  artifactKey: Guid(5a8f39913d8079645914b07628ae2049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Pole_light_free_obs.prefab using Guid(5a8f39913d8079645914b07628ae2049) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2081896fc503047d13cf78d161582a0d') in 0.0356679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.858160 seconds.
-  path: Assets/Wispy Sky/Demo
-  artifactKey: Guid(75c96fc239c55814ebcd10e28b771f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Demo using Guid(75c96fc239c55814ebcd10e28b771f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9737a12184e6f55394cf8ccb77f3e9e') in 0.0132713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000184 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Cone_free.fbx
+  artifactKey: Guid(41d39579352781a469fa30b8617ec422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Cone_free.fbx using Guid(41d39579352781a469fa30b8617ec422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '174d833d6364c5c38f463c3cbd68f43d') in 0.0520513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.992074 seconds.
-  path: Assets/Wispy Sky/Materials
-  artifactKey: Guid(297298d1ec092b64aab2198cff67ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Materials using Guid(297298d1ec092b64aab2198cff67ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d2a48766ca33c1043e42bdd08cdec8') in 0.0008776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000050 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Flag_free.fbx
+  artifactKey: Guid(6503076fc48824e4f87cd11e064396e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Flag_free.fbx using Guid(6503076fc48824e4f87cd11e064396e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cf7a6181a42c207958081e920357fa9') in 0.050942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014264 seconds.
-  path: Assets/Wispy Sky/Materials/WispyCubemap.cubemap
-  artifactKey: Guid(3977a445bc0cbf1498161e4f4b99b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Materials/WispyCubemap.cubemap using Guid(3977a445bc0cbf1498161e4f4b99b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b82b456b7d4489f3dd66db7e89bbc19') in 0.901993 seconds
+  Time since last request: 0.000059 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_banner_finish_free_obs.prefab
+  artifactKey: Guid(c7bebf8ce7ad3264abbb7ed6a6953153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_banner_finish_free_obs.prefab using Guid(c7bebf8ce7ad3264abbb7ed6a6953153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc37783b5074b2983b0fc76e8a7db2e8') in 0.0448118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab
+  artifactKey: Guid(2e1e65078fb46104b990555c32488a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab using Guid(2e1e65078fb46104b990555c32488a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f660455b9dd0e6df246d6dc20e6e51e') in 0.0429341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Tribune_free_obs.prefab
+  artifactKey: Guid(d83bf5421fa587548b541193382273ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Tribune_free_obs.prefab using Guid(d83bf5421fa587548b541193382273ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78243d1ba1b9c38be52462a5a0979774') in 0.0601701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.906181 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e9d6fa6798299821f9c24146948cf47') in 0.652735 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Wispy Sky/Materials/WispySkyboxCubeMat2.mat
-  artifactKey: Guid(794eb5f8516828240b12c676f5aac8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Materials/WispySkyboxCubeMat2.mat using Guid(794eb5f8516828240b12c676f5aac8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece8a570674bd0be1e9fc7bf004932ff') in 0.1512273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000103 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Materials/Plane.mat
+  artifactKey: Guid(6e8c90375478767429263aa573600758) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Materials/Plane.mat using Guid(6e8c90375478767429263aa573600758) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e656dcb9b7c15d57ba734967d3a67a9') in 0.1604353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Wispy Sky/Materials/WispySkyboxMobileMat.mat
-  artifactKey: Guid(03902d0b450add74fa144e9510fd0f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Materials/WispySkyboxMobileMat.mat using Guid(03902d0b450add74fa144e9510fd0f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c17810ed0b77cc1e21f2164543c6b0b') in 0.4556598 seconds
+  Time since last request: 0.000113 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Readme.txt
+  artifactKey: Guid(08bede57e503fcb4bb7feeb255eb225b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Readme.txt using Guid(08bede57e503fcb4bb7feeb255eb225b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a28aa60800a5ab86153d71e26879ec05') in 0.04834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Tribune_free.fbx
+  artifactKey: Guid(29a2224320214ef489d7ecf10d4141dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Tribune_free.fbx using Guid(29a2224320214ef489d7ecf10d4141dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a395e7c43eafa4a62f3cff19a238dc26') in 0.3553677 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Wispy Sky/Materials/WispySkyboxMat2.mat
-  artifactKey: Guid(7b621f3d20f81af4785f8576da7910e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Materials/WispySkyboxMat2.mat using Guid(7b621f3d20f81af4785f8576da7910e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '567aca672746bf801f862ee6ee326e78') in 0.4237767 seconds
+  Time since last request: 0.000141 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Pole_light_free_obs.prefab
+  artifactKey: Guid(5a8f39913d8079645914b07628ae2049) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Pole_light_free_obs.prefab using Guid(5a8f39913d8079645914b07628ae2049) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0f0d5efa395baa380c712e745410c41') in 0.0889161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Textures/Track_Texture.png
+  artifactKey: Guid(df3a2f2806cd8074cb8235cf73db76f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Textures/Track_Texture.png using Guid(df3a2f2806cd8074cb8235cf73db76f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27aaaf58e89f300e9495b41617859534') in 0.2148415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab
+  artifactKey: Guid(2e1e65078fb46104b990555c32488a27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab using Guid(2e1e65078fb46104b990555c32488a27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f6b29cd74b75114ce808afaafe550ff') in 0.0874519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Cone_free.fbx
+  artifactKey: Guid(41d39579352781a469fa30b8617ec422) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Cone_free.fbx using Guid(41d39579352781a469fa30b8617ec422) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a52fa626e30a691528eb3e2be08be39') in 0.157535 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.175535 seconds.
-  path: Assets/Wispy Sky/Textures/SkyBox02b0001.tif
-  artifactKey: Guid(569c870bdaf96374f98aa4c7a05d3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Textures/SkyBox02b0001.tif using Guid(569c870bdaf96374f98aa4c7a05d3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f580bcc09122d027686812e3b2bbb0') in 0.0610162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000183 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Pole_light_free_obs.prefab
+  artifactKey: Guid(5a8f39913d8079645914b07628ae2049) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Pole_light_free_obs.prefab using Guid(5a8f39913d8079645914b07628ae2049) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a376db3c5ec5e1a9c91d262a81a0d44c') in 0.0723671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Wispy Sky/Textures/SkyBox020006.tif
-  artifactKey: Guid(84db52690e0e44746957a79f52453f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Textures/SkyBox020006.tif using Guid(84db52690e0e44746957a79f52453f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b12c33359f21bdbe2c80aec2dee3119f') in 0.04144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000192 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Flag_free.fbx
+  artifactKey: Guid(6503076fc48824e4f87cd11e064396e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Flag_free.fbx using Guid(6503076fc48824e4f87cd11e064396e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f8f2555e5ea3c2dd8b00110219ae508') in 0.0951913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Wispy Sky/Textures/SkyBox020004.tif
-  artifactKey: Guid(aacee15d93143e14dbbd6be89a785e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Textures/SkyBox020004.tif using Guid(aacee15d93143e14dbbd6be89a785e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1531fb1995ec3459a5ccf4acb7776212') in 0.0476486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000088 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Sign_free_obs.prefab
+  artifactKey: Guid(fca05fc86b15f0d4da25ed7793db4384) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Sign_free_obs.prefab using Guid(fca05fc86b15f0d4da25ed7793db4384) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3ae91c448cbd6d5fb672a815d988bad') in 0.1140223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Wispy Sky/Textures/SkyBox02b0005.tif
-  artifactKey: Guid(7046a0b4cc52e6e42b431fd577ba1de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Textures/SkyBox02b0005.tif using Guid(7046a0b4cc52e6e42b431fd577ba1de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea6ddb63a8fca962d80f22103f4db2ad') in 0.040888 seconds
+  Time since last request: 0.000139 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Arch_for_banner_free.fbx
+  artifactKey: Guid(f07e09f6d3fc20744a9f77e776732341) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Arch_for_banner_free.fbx using Guid(f07e09f6d3fc20744a9f77e776732341) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9547dfe40cd8f0876695fc1f97342c3') in 0.0727527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Cone_free_obs.prefab
+  artifactKey: Guid(b6e6982b772a1bc46b88d93db630bee4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Cone_free_obs.prefab using Guid(b6e6982b772a1bc46b88d93db630bee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '142b6ef23bb006c80a7c102a69f0ceeb') in 0.1397552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_e.fbx
+  artifactKey: Guid(485b51d42c0c5b345a5850f12dd97eb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_e.fbx using Guid(485b51d42c0c5b345a5850f12dd97eb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aa7b0db86c3da77617e4738a0861318') in 0.2221586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Materials/Environment_Free_Material.mat
+  artifactKey: Guid(b191529dbda163843876d34008f8139a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Materials/Environment_Free_Material.mat using Guid(b191529dbda163843876d34008f8139a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '959dd4ffdc6ec66126795d465ada8f8c') in 0.0440755 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000109 seconds.
-  path: Assets/Wispy Sky/Textures/SkyBox02b0006.tif
-  artifactKey: Guid(a33ce2b88e6af574ea30808871a61640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Textures/SkyBox02b0006.tif using Guid(a33ce2b88e6af574ea30808871a61640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc04ac3ba29954f15092105089170ad') in 0.046382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_01_free_obs.prefab
+  artifactKey: Guid(63f7e3a5ea486a9438b4cd3142c7dc92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_01_free_obs.prefab using Guid(63f7e3a5ea486a9438b4cd3142c7dc92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8bdae2ae9b60b8de9238809e9178f87b') in 0.0650088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Wispy Sky/Textures/SkyBox020005.tif
-  artifactKey: Guid(813b8464c36e87d44b5c1a742bfb01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Textures/SkyBox020005.tif using Guid(813b8464c36e87d44b5c1a742bfb01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14a0c26b4d6e4c08621a256ac599c09a') in 0.0614046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000113 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab
+  artifactKey: Guid(2e1e65078fb46104b990555c32488a27) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab using Guid(2e1e65078fb46104b990555c32488a27) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '85593a217886cbc06246c8c457654fb5') in 0.0756228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.183478 seconds.
-  path: Assets/Wispy Sky/Extras/SphericalRenderPSD.psd
-  artifactKey: Guid(bb3173e72a2ad3f409e5dded7284b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wispy Sky/Extras/SphericalRenderPSD.psd using Guid(bb3173e72a2ad3f409e5dded7284b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c39db39dce378dbd4bb56421cd8af6d') in 0.0390974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5884 unused Assets / (4.4 MB). Loaded Objects now: 6858.
-Memory consumption went from 161.5 MB to 157.0 MB.
-Total: 14.650900 ms (FindLiveObjects: 1.154900 ms CreateObjectMapping: 0.929800 ms MarkObjects: 8.410900 ms  DeleteObjects: 4.153200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.193 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.904 seconds
-Domain Reload Profiling: 4096ms
-	BeginReloadAssembly (466ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (173ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (1601ms)
-		LoadAssemblies (929ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (877ms)
-			TypeCache.Refresh (63ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (710ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1905ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1032ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (803ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5891 unused Assets / (4.5 MB). Loaded Objects now: 6753.
-Memory consumption went from 171.2 MB to 166.8 MB.
-Total: 17.116500 ms (FindLiveObjects: 1.306200 ms CreateObjectMapping: 1.090400 ms MarkObjects: 7.922600 ms  DeleteObjects: 6.794200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 43.139744 seconds.
-  path: Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/Ground_Checker.mat
-  artifactKey: Guid(9a9f92dd4acf6bd48ad56b6223ccadea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/Ground_Checker.mat using Guid(9a9f92dd4acf6bd48ad56b6223ccadea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c88e4ea69cfa9baa9eee45a6480dbc11') in 1.0199633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000498 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Arrow_01_free.fbx
+  artifactKey: Guid(bce2e842bb981e54d9fca3268ae02e8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Arrow_01_free.fbx using Guid(bce2e842bb981e54d9fca3268ae02e8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48d64cd7e205065e5a4061dbe80dc5a5') in 0.1162436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/sky_Mat.mat
-  artifactKey: Guid(62b472eac190e5c45a3d032c4d099b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/sky_Mat.mat using Guid(62b472eac190e5c45a3d032c4d099b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37062fa63e64099a7157b98aa433d83b') in 0.0472695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000098 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Pole_light_free.fbx
+  artifactKey: Guid(524b0a3ce31d8264ea017eae2d6e4441) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Pole_light_free.fbx using Guid(524b0a3ce31d8264ea017eae2d6e4441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c77c3921b38b8873087b7ae3ff052e86') in 0.0863852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.224173 seconds.
-  path: Assets/Models/Race track Variant.prefab
-  artifactKey: Guid(0a850a300f6385242ade10e418295363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Race track Variant.prefab using Guid(0a850a300f6385242ade10e418295363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d65ff570bc8b419dc7f210ab6d40dd5') in 0.4907507 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2209
+  Time since last request: 0.000126 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Barrier_free.fbx
+  artifactKey: Guid(fc7e863a8c68106469f94461e8a8cec1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Barrier_free.fbx using Guid(fc7e863a8c68106469f94461e8a8cec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca7f2d627f99893b52c4d98a977c66f4') in 0.0717697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Models/Traffic_light_free.fbx
+  artifactKey: Guid(cd4943d3cd4d51d4598679f546348626) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BEDRILL/Track_Environment_Free/Models/Traffic_light_free.fbx using Guid(cd4943d3cd4d51d4598679f546348626) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1566c1a49675064551d7301db4d9db3c') in 0.1861376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Barrier_free_obs.prefab
+  artifactKey: Guid(f26c4802677a5194091851e89ded1f3a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Barrier_free_obs.prefab using Guid(f26c4802677a5194091851e89ded1f3a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bf7bd426daef2a88805b9c79d39f13a3') in 0.1389977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Tribune_free_obs.prefab
+  artifactKey: Guid(d83bf5421fa587548b541193382273ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Tribune_free_obs.prefab using Guid(d83bf5421fa587548b541193382273ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3f4f3a50a9d54259235891d35910fdf5') in 0.2160689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
