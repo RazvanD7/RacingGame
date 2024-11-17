@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker8
+AssetImportWorker13
 -projectPath
 C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
 -logFile
-Logs/AssetImportWorker8.log
+Logs/AssetImportWorker13.log
 -srvPort
 61830
 -job-worker-count
@@ -59,14 +59,14 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6184]  Target information:
+Player connection [13136]  Target information:
 
-Player connection [6184]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2180317128 [EditorId] 2180317128 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13136]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4069165570 [EditorId] 4069165570 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6184]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2180317128 [EditorId] 2180317128 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13136]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 4069165570 [EditorId] 4069165570 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6184] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6184] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13136] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 11.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 21.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
@@ -93,53 +93,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010901 seconds.
-- Loaded All Assemblies, in  3.055 seconds
+Registered in 0.005795 seconds.
+- Loaded All Assemblies, in  2.621 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.177 seconds
-Domain Reload Profiling: 5227ms
-	BeginReloadAssembly (1422ms)
+- Finished resetting the current domain, in  2.672 seconds
+Domain Reload Profiling: 5283ms
+	BeginReloadAssembly (1222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (215ms)
-	RebuildNativeTypeToScriptingClass (55ms)
-	initialDomainReloadingComplete (314ms)
-	LoadAllAssembliesAndSetupDomain (1043ms)
-		LoadAssemblies (1420ms)
+	RebuildCommonClasses (267ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (868ms)
+		LoadAssemblies (1221ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1034ms)
-			TypeCache.Refresh (1031ms)
-				TypeCache.ScanAssembly (948ms)
+		AnalyzeDomain (843ms)
+			TypeCache.Refresh (839ms)
+				TypeCache.ScanAssembly (747ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2178ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2674ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2015ms)
+		SetupLoadedEditorAssemblies (2343ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (157ms)
-			SetLoadedEditorAssemblies (19ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (1287ms)
-			ProcessInitializeOnLoadMethodAttributes (310ms)
-			AfterProcessingInitializeOnLoad (212ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (235ms)
+			SetLoadedEditorAssemblies (33ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (1671ms)
+			ProcessInitializeOnLoadMethodAttributes (358ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  8.878 seconds
-Refreshing native plugins compatible for Editor in 21.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  8.185 seconds
+Refreshing native plugins compatible for Editor in 22.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 d3d11: failed to create 2D texture id=119 width=2048 height=128 mips=1 dxgifmt=29 [D3D error was 8007000e]
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)

@@ -15,7 +15,7 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61830
+52805
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6892]  Target information:
+Player connection [27328]  Target information:
 
-Player connection [6892]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2054724119 [EditorId] 2054724119 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27328]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2636276910 [EditorId] 2636276910 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6892]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2054724119 [EditorId] 2054724119 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27328]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2636276910 [EditorId] 2636276910 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6892] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6892] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27328] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
@@ -93,293 +93,263 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008217 seconds.
-- Loaded All Assemblies, in  1.418 seconds
+Registered in 0.008082 seconds.
+- Loaded All Assemblies, in  0.865 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.011 seconds
-Domain Reload Profiling: 2427ms
-	BeginReloadAssembly (730ms)
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1587ms
+	BeginReloadAssembly (383ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (142ms)
-	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (136ms)
-	LoadAllAssembliesAndSetupDomain (376ms)
-		LoadAssemblies (726ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (376ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (367ms)
-			TypeCache.Refresh (362ms)
-				TypeCache.ScanAssembly (322ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (258ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1012ms)
+	FinalizeReload (725ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (927ms)
+		SetupLoadedEditorAssemblies (644ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (59ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (23ms)
-			ProcessInitializeOnLoadAttributes (655ms)
-			ProcessInitializeOnLoadMethodAttributes (164ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.019 seconds
-Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.563 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.406 seconds
-Domain Reload Profiling: 4425ms
-	BeginReloadAssembly (1080ms)
+- Finished resetting the current domain, in  1.717 seconds
+Domain Reload Profiling: 4277ms
+	BeginReloadAssembly (1163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (814ms)
-		LoadAssemblies (638ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1244ms)
+		LoadAssemblies (882ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (265ms)
-				TypeCache.ScanAssembly (242ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2409ms)
+		AnalyzeDomain (534ms)
+			TypeCache.Refresh (348ms)
+				TypeCache.ScanAssembly (307ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1719ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1530ms)
+		SetupLoadedEditorAssemblies (1170ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (1060ms)
-			ProcessInitializeOnLoadMethodAttributes (355ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (901ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5897 unused Assets / (4.1 MB). Loaded Objects now: 6667.
-Memory consumption went from 182.4 MB to 178.3 MB.
-Total: 28.317500 ms (FindLiveObjects: 3.327200 ms CreateObjectMapping: 1.899900 ms MarkObjects: 12.904100 ms  DeleteObjects: 10.178200 ms)
+Unloading 5897 unused Assets / (3.9 MB). Loaded Objects now: 6668.
+Memory consumption went from 180.8 MB to 176.9 MB.
+Total: 17.141100 ms (FindLiveObjects: 1.913200 ms CreateObjectMapping: 1.459000 ms MarkObjects: 8.627200 ms  DeleteObjects: 5.135700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 176937.672504 seconds.
-  path: Assets/Race Track Pack/Models/Materials/birchBlowing1Shader.mat
-  artifactKey: Guid(4492c4fb1c0ab4945b343d353eee777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/birchBlowing1Shader.mat using Guid(4492c4fb1c0ab4945b343d353eee777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde941843cd648a3e48ae8a79b6fa593') in 2.0980228 seconds
+  Time since last request: 179950.746209 seconds.
+  path: Assets/Gwangju_3D asset/15_BlackWalnutTree
+  artifactKey: Guid(10310ae16521bb541b38c9c6725e6996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree using Guid(10310ae16521bb541b38c9c6725e6996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b440c48a08189942a790b953f6c8e812') in 0.01527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Gwangju_3D asset/Scenes
+  artifactKey: Guid(11cdfdd105f1d32469ebc776c39b9416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Scenes using Guid(11cdfdd105f1d32469ebc776c39b9416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc257f913dc828d9e15b49ea52752df8') in 0.0013686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.411586 seconds.
+  path: Assets/Wispy Sky/Materials/WispyCubemap2.cubemap
+  artifactKey: Guid(08d3eb3caabff3f47ac34c183ff41827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Materials/WispyCubemap2.cubemap using Guid(08d3eb3caabff3f47ac34c183ff41827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15f04a13621f9367766069112bc40cf4') in 0.9184714 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Race Track Pack/Models/Materials/oakWhiteLeafyMedium1LeafShader.mat
-  artifactKey: Guid(ca26521f59c2fb2429aa340272d979f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/oakWhiteLeafyMedium1LeafShader.mat using Guid(ca26521f59c2fb2429aa340272d979f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5284785023a01bc17d8501e6dc936d6a') in 0.0638967 seconds
+  Time since last request: 0.000126 seconds.
+  path: Assets/Wispy Sky/Materials/WispySkyboxMobileMat2.mat
+  artifactKey: Guid(9f327c06f8120874aa029411cd0352cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Materials/WispySkyboxMobileMat2.mat using Guid(9f327c06f8120874aa029411cd0352cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17640d2ac50aea3e6fb10160d1bdb24d') in 0.536529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Wispy Sky/Materials/WispySkyboxCubeMat.mat
+  artifactKey: Guid(b22d7be7b41d68745aecdfce4c70c426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Materials/WispySkyboxCubeMat.mat using Guid(b22d7be7b41d68745aecdfce4c70c426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e1171ea853bdc8d3fd147448489cce') in 0.0603221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Wispy Sky/Materials/WispySkyboxMat.mat
+  artifactKey: Guid(fb3b9b55c01d2194c816b2d469854e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Materials/WispySkyboxMat.mat using Guid(fb3b9b55c01d2194c816b2d469854e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ccd04417fe86157f87e5ed524434efc') in 0.4044768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.177586 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox02b0002.tif
+  artifactKey: Guid(569679e95ebdccf4e947af1359522a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Textures/SkyBox02b0002.tif using Guid(569679e95ebdccf4e947af1359522a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25438181bde8024c938e50a9bcae7a3f') in 0.0597201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox02b0003.tif
+  artifactKey: Guid(16c4243807886a04dbbcb777806c5b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Textures/SkyBox02b0003.tif using Guid(16c4243807886a04dbbcb777806c5b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909e8d329cb17e7b41679fce088a0b4a') in 0.0443266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox020001.tif
+  artifactKey: Guid(c960b40f11e80ba42876945d466a4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Textures/SkyBox020001.tif using Guid(c960b40f11e80ba42876945d466a4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '676956538239f9082e4223550e0ff28b') in 0.0467144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox02b0004.tif
+  artifactKey: Guid(ea4a7f083ecb4b946bac3754cba78c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Textures/SkyBox02b0004.tif using Guid(ea4a7f083ecb4b946bac3754cba78c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caab5a44d51e0a0501e91217a98f9ee9') in 0.0460942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox020002.tif
+  artifactKey: Guid(45fa88018c5ac004587ad6b4ad43b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Textures/SkyBox020002.tif using Guid(45fa88018c5ac004587ad6b4ad43b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebdfc511f5c390ec7f80ffa0dd139cf7') in 0.0504846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox020003.tif
+  artifactKey: Guid(d6d8ef656544dfc4d855e70eaa8a12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wispy Sky/Textures/SkyBox020003.tif using Guid(d6d8ef656544dfc4d855e70eaa8a12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f085b2d090cd15112c1005dba04244eb') in 0.0509751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5884 unused Assets / (4.5 MB). Loaded Objects now: 6857.
+Memory consumption went from 161.5 MB to 157.0 MB.
+Total: 19.355800 ms (FindLiveObjects: 1.959100 ms CreateObjectMapping: 1.894100 ms MarkObjects: 10.936900 ms  DeleteObjects: 4.562600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.108 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.949 seconds
+Domain Reload Profiling: 4059ms
+	BeginReloadAssembly (452ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (162ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (1521ms)
+		LoadAssemblies (1235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (488ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (452ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1031ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (799ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5891 unused Assets / (3.7 MB). Loaded Objects now: 6752.
+Memory consumption went from 171.3 MB to 167.6 MB.
+Total: 14.697800 ms (FindLiveObjects: 1.198800 ms CreateObjectMapping: 1.082900 ms MarkObjects: 7.427500 ms  DeleteObjects: 4.985000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.424836 seconds.
+  path: Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/Ground_Checker.prefab
+  artifactKey: Guid(d77c066d537436643b099fbd106277d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/Ground_Checker.prefab using Guid(d77c066d537436643b099fbd106277d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9b7d7cacfc361c630df8fbeda45ca1b') in 0.9884445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/SkyColor.png
+  artifactKey: Guid(5278d7860f6cb6744a17aba626e6ddfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/SkyColor.png using Guid(5278d7860f6cb6744a17aba626e6ddfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca16dad6fb9f4761ab18cef91c7f234') in 0.0973826 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Race Track Pack/Models/Materials/keyakiPark2LeafShader.mat
-  artifactKey: Guid(2f1791bce141f9149b975a627fd0a2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/keyakiPark2LeafShader.mat using Guid(2f1791bce141f9149b975a627fd0a2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'febbb40080a04789a673241bf289ad42') in 0.062279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Race Track Pack/Models/Materials/road_Road_AlbedoTransparency.mat
-  artifactKey: Guid(057c917fe17be6746a32cb2244371ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/road_Road_AlbedoTransparency.mat using Guid(057c917fe17be6746a32cb2244371ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0e06f9e239b2d3951acc1c7bf086a0') in 0.1105731 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Race Track Pack/Models/Materials/Net.mat
-  artifactKey: Guid(d07c84db5061c494493ce2522f7a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/Net.mat using Guid(d07c84db5061c494493ce2522f7a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7249c8a20a52fb91bb61656ba7ba0f6') in 0.0497902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Race Track Pack/Models/Materials/keyakiStreet1Shader.mat
-  artifactKey: Guid(366013492f77fbe468ecea9a46c7023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/keyakiStreet1Shader.mat using Guid(366013492f77fbe468ecea9a46c7023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a14c0413a793a5cfa881a2c58aa1d6a5') in 0.0582289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Race Track Pack/Models/Materials/Props_Mt.mat
-  artifactKey: Guid(368e958ddc4527246ae83442e22600c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Materials/Props_Mt.mat using Guid(368e958ddc4527246ae83442e22600c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64b4c81d9b027b378f32cc739364bb2c') in 0.1290343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 1181.737111 seconds.
-  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials/BlackwalnutAutumn02.mat
-  artifactKey: Guid(fcd032e98aad39340a6022e3315eb46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials/BlackwalnutAutumn02.mat using Guid(fcd032e98aad39340a6022e3315eb46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0eef21254c344d5df367838b8318cc7') in 0.2641066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials/BlackwalnutBark.mat
-  artifactKey: Guid(b07b2282385c58948aad6bd732de371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Materials/BlackwalnutBark.mat using Guid(b07b2282385c58948aad6bd732de371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd5de7d6ccc203165aaed462e562065c') in 0.1020624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 287.983720 seconds.
-  path: Assets/Snow mountain tracks/Resources/Models/concrete 2.asset
-  artifactKey: Guid(ed41ebd2345b5924c90f919f45e87d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snow mountain tracks/Resources/Models/concrete 2.asset using Guid(ed41ebd2345b5924c90f919f45e87d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fc1e0472eab084868e0311a1b92bb3e') in 0.3884623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.364402 seconds.
-  path: Assets/Stylized Nature Environment/Materials/mountain_emission.mat
-  artifactKey: Guid(ed096e74aff15a8469cd10502f7efdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Materials/mountain_emission.mat using Guid(ed096e74aff15a8469cd10502f7efdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac2b58712bd8dc63478a157e36f62a60') in 0.0548213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.760625 seconds.
-  path: Assets/Stylized Nature Environment/Nature/foliage01.psd
-  artifactKey: Guid(fba874c609e587e4f8618336e5fa4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/foliage01.psd using Guid(fba874c609e587e4f8618336e5fa4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff8d46237a91ec4a34ea5bfc4d05e074') in 0.1346074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Stylized Nature Environment/Nature/foliage07-b.psd
-  artifactKey: Guid(03867b1f38d354c43aa1ac903bce5b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/foliage07-b.psd using Guid(03867b1f38d354c43aa1ac903bce5b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25ec6fc28831c2913a4c1e573862980f') in 0.0402923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Stylized Nature Environment/Nature/tree_f.fbx
-  artifactKey: Guid(d6390f08259b01b48ab6f39baec54113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/tree_f.fbx using Guid(d6390f08259b01b48ab6f39baec54113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddcf6255df13dac6ad1c8b93521727f0') in 0.2202567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Stylized Nature Environment/Nature/tree_j.fbx
-  artifactKey: Guid(cceb57b1fea70c94eb2be2c988604e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/tree_j.fbx using Guid(cceb57b1fea70c94eb2be2c988604e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1b5943f1f2f1c6993231f36fa3bcb81') in 0.0636029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Stylized Nature Environment/Nature/foliage06.psd
-  artifactKey: Guid(54e7a4a97b3ae0a41be74acb0b61f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/foliage06.psd using Guid(54e7a4a97b3ae0a41be74acb0b61f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da4fae4f7c8488f394d0d01d5af9feae') in 0.0731386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Stylized Nature Environment/Nature/foliage02.psd
-  artifactKey: Guid(0926a7c3dcfd7de44bf3ddd000f5b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/foliage02.psd using Guid(0926a7c3dcfd7de44bf3ddd000f5b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a055d53c876a9e1123da08e778a7e6c1') in 0.0666329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Stylized Nature Environment/Nature/tree_d.fbx
-  artifactKey: Guid(0bd72e5f4b05a474496b3d6e952adbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/tree_d.fbx using Guid(0bd72e5f4b05a474496b3d6e952adbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daed68e17c56c0ae5e18b3eed486bad4') in 0.0735125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Stylized Nature Environment/PostProcessing Sample/Post-Processing Profile - Fall.asset
-  artifactKey: Guid(4e35d91ccdd1e7444971f9d872669c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/PostProcessing Sample/Post-Processing Profile - Fall.asset using Guid(4e35d91ccdd1e7444971f9d872669c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6d66a8d9d703ca76a01e612b85fc977') in 0.004908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Stylized Nature Environment/Nature/foliage07.psd
-  artifactKey: Guid(29dd50bf784368c4abc407c60bf61519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Nature/foliage07.psd using Guid(29dd50bf784368c4abc407c60bf61519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6938852930f5badcd7110700edd250e9') in 0.0518105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.003220 seconds.
-  path: Assets/Stylized Nature Environment/Prefabs/sky.prefab
-  artifactKey: Guid(ce1c47babe5679143b24221e8878c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Prefabs/sky.prefab using Guid(ce1c47babe5679143b24221e8878c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f1ad7b8d78fb30b9ee4f68eccd99d8c') in 9.3989866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Stylized Nature Environment/Prefabs/tree_i.prefab
-  artifactKey: Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Prefabs/tree_i.prefab using Guid(c8241c5696cbec14bae8a38a0489c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef19a52eeacbae64f3141460de8ec276') in 0.0625181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Stylized Nature Environment/Prefabs/tree_e.prefab
-  artifactKey: Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Prefabs/tree_e.prefab using Guid(4c19e7fac9429a743b3a44dab80d5829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0f1fffb868127f40367eb66a89a2d49') in 0.0517483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Stylized Nature Environment/Prefabs/tree_c.prefab
-  artifactKey: Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Prefabs/tree_c.prefab using Guid(2dec588a435420f4589914de23d120f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64dae24ee6bfb5fffbc2bcdb6ebd051a') in 0.043872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Stylized Nature Environment/Prefabs/tree_f.prefab
-  artifactKey: Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Nature Environment/Prefabs/tree_f.prefab using Guid(0a5c7fe0194741c48a466d7c6316f970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc860708ba0d753329a6764d3237851e') in 0.061297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 

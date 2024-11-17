@@ -15,7 +15,7 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-52993
+61830
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3776]  Target information:
+Player connection [10376]  Target information:
 
-Player connection [3776]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 27679567 [EditorId] 27679567 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10376]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 771554216 [EditorId] 771554216 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3776]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 27679567 [EditorId] 27679567 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10376]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 771554216 [EditorId] 771554216 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3776] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10376] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
@@ -93,43 +93,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004747 seconds.
-- Loaded All Assemblies, in  0.662 seconds
+Registered in 0.005950 seconds.
+- Loaded All Assemblies, in  0.729 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.476 seconds
-Domain Reload Profiling: 1138ms
-	BeginReloadAssembly (281ms)
+Domain Reload Profiling: 1203ms
+	BeginReloadAssembly (300ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (68ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (275ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (299ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (183ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (478ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (242ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (477ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (412ms)
+		SetupLoadedEditorAssemblies (416ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (269ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,124 +138,1094 @@ Domain Reload Profiling: 1138ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.654 seconds
-Refreshing native plugins compatible for Editor in 7.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.813 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.781 seconds
-Domain Reload Profiling: 6416ms
-	BeginReloadAssembly (1699ms)
+- Finished resetting the current domain, in  1.466 seconds
+Domain Reload Profiling: 3279ms
+	BeginReloadAssembly (903ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (117ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (1756ms)
-		LoadAssemblies (1380ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (804ms)
+		LoadAssemblies (607ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (650ms)
-			TypeCache.Refresh (468ms)
-				TypeCache.ScanAssembly (414ms)
-			BuildScriptInfoCaches (152ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (2782ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (202ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1469ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2029ms)
+		SetupLoadedEditorAssemblies (969ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (1684ms)
-			ProcessInitializeOnLoadMethodAttributes (201ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (686ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5897 unused Assets / (5.8 MB). Loaded Objects now: 6665.
-Memory consumption went from 182.2 MB to 176.4 MB.
-Total: 31.143700 ms (FindLiveObjects: 2.438200 ms CreateObjectMapping: 3.042400 ms MarkObjects: 15.016800 ms  DeleteObjects: 10.639800 ms)
+Unloading 5897 unused Assets / (4.5 MB). Loaded Objects now: 6667.
+Memory consumption went from 180.6 MB to 176.1 MB.
+Total: 20.464400 ms (FindLiveObjects: 1.278000 ms CreateObjectMapping: 1.450700 ms MarkObjects: 10.033600 ms  DeleteObjects: 7.695700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 175167.644239 seconds.
-  path: Assets/Race Track Pack/Models/Tunnels and Bridge Models.fbx
-  artifactKey: Guid(3d9e6e1336a0f254c92d82324601bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Models/Tunnels and Bridge Models.fbx using Guid(3d9e6e1336a0f254c92d82324601bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73d0a1e92bd28efe5af51a63bd96f18d') in 12.3121906 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+  Time since last request: 178739.774206 seconds.
+  path: Assets/Gwangju_3D asset/Materials
+  artifactKey: Guid(4f04a68b7c8cd7347a45f05bb65a5687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/Materials using Guid(4f04a68b7c8cd7347a45f05bb65a5687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3334609a9b6a4a960148f9c5ce32c265') in 0.3882976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Race Track Pack/Prefabs/Track Props/Net bar.prefab
-  artifactKey: Guid(c5521214aa005f84dbfb7c0aeabb2440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Track Props/Net bar.prefab using Guid(c5521214aa005f84dbfb7c0aeabb2440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c08d393a7c8e8d23bf8cb77d80863ba') in 14.1530471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+  Time since last request: 309.029257 seconds.
+  path: Assets/HousePack/Models
+  artifactKey: Guid(25fc407f745550046ad3cd587cf9a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models using Guid(25fc407f745550046ad3cd587cf9a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a6ee8edc03b59a773006ef8dcdefe4e') in 0.0169588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.544192 seconds.
-  path: Assets/Models/Grass.png
-  artifactKey: Guid(8fe7fb34a2b82764d91c41c0be35327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Grass.png using Guid(8fe7fb34a2b82764d91c41c0be35327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e41ad086891eee9f6a050eae3b52b09a') in 0.0402349 seconds
+  Time since last request: 1.197647 seconds.
+  path: Assets/HousePack/Models/House1
+  artifactKey: Guid(970dc5b85c501804eae765bebbd6ba20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1 using Guid(970dc5b85c501804eae765bebbd6ba20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '322d2d58c9632216372fbd29fa839b1e') in 0.0026149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060112 seconds.
+  path: Assets/HousePack/Models/House1/House1.FBX
+  artifactKey: Guid(c3d67df85cdf2904db4b914ddd22ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HousePack/Models/House1/House1.FBX using Guid(c3d67df85cdf2904db4b914ddd22ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ef2e6b720cd295ae405d6efb2b06a4a') in 2.5451275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.273903 seconds.
+  path: Assets/ex.unity
+  artifactKey: Guid(3ef6a00bc4649e640aeae37c48e1f131) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ex.unity using Guid(3ef6a00bc4649e640aeae37c48e1f131) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/ex.unity additively'
+Loaded scene 'Assets/ex.unity'
+	Deserialize:            71.903 ms
+	Integration:            434.273 ms
+	Integration of assets:  0.648 ms
+	Thread Wait Time:       -0.612 ms
+	Total Operation Time:   506.212 ms
+ -> (artifact id: 'cfb243fd935975c106ce29742801e3a0') in 3.9320947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 194
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b6132d325f8ce550c84af271b5eaf204') in 0.3003658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/Gwangju_3D asset/kloppenheim_06_puresky_4k.hdr
+  artifactKey: Guid(f784370d14550b34bac12b8b98376375) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gwangju_3D asset/kloppenheim_06_puresky_4k.hdr using Guid(f784370d14550b34bac12b8b98376375) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a1c6d44eebb1c0965aafe23f9493387') in 2.4785886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/NewBrush 1.brush
+  artifactKey: Guid(90ee08f1629c1444982f5ad13150d83d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NewBrush 1.brush using Guid(90ee08f1629c1444982f5ad13150d83d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f148ffa4e20d362205c93ea1e97d2dd') in 0.3131966 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 79.708000 seconds.
-  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge.prefab
-  artifactKey: Guid(97f3b0528ef93a84d97ecdc7b2b804c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge.prefab using Guid(97f3b0528ef93a84d97ecdc7b2b804c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc8e365d203e99ad7189423523d9d4cd') in 0.0537099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+  Time since last request: 0.000201 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Traffic_Cone.prefab
+  artifactKey: Guid(3a6674df6ff7d4e47967e98818a4c39e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Traffic_Cone.prefab using Guid(3a6674df6ff7d4e47967e98818a4c39e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '02f11f939b349f3db1137f98b256307c') in 0.0835128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge_Plane.prefab
-  artifactKey: Guid(3501a57d6613c9740a5e655d11249941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge_Plane.prefab using Guid(3501a57d6613c9740a5e655d11249941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd697a0213dbc3d4f484c4e12e6b5e24') in 0.0647351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000078 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(a6124bbab4305f64181e227aedd81cda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Terrain.asset using Guid(a6124bbab4305f64181e227aedd81cda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd367ff9057cf3878f347f385997f96fe') in 0.1311364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight.prefab
-  artifactKey: Guid(55fdb04009221c34bbaca5f23f62e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight.prefab using Guid(55fdb04009221c34bbaca5f23f62e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98837c70b74896b6efa99d5265f9d50') in 0.0482673 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000100 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_i.fbx
+  artifactKey: Guid(679834144b39ebb49bfc8566678cec1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_i.fbx using Guid(679834144b39ebb49bfc8566678cec1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e98d39349e4c645a5e3bd3e73bdefa0f') in 0.4140035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight01.prefab
-  artifactKey: Guid(1c4b1f5cad67263458911cab3c08b372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight01.prefab using Guid(1c4b1f5cad67263458911cab3c08b372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc95b789bf6c43c35da90cbcbe1e42b') in 0.0460777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000189 seconds.
+  path: Assets/Race Track Pack/Scenes/All Models Scene.unity
+  artifactKey: Guid(e69c55a5ef63ca242af8538817d63b7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Scenes/All Models Scene.unity using Guid(e69c55a5ef63ca242af8538817d63b7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53a905df3a15d68f9a399beb94913786') in 0.1577363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_curve 1.prefab
-  artifactKey: Guid(9e21214d3d82a214a81077302a661f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_curve 1.prefab using Guid(9e21214d3d82a214a81077302a661f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d82e034b18147d7dc93e08d8c58c31d') in 0.056072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Prefabs/BlackWalnutTree_Autumn02.prefab
+  artifactKey: Guid(972c378e51b4b1b458167da621a28fd0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Prefabs/BlackWalnutTree_Autumn02.prefab using Guid(972c378e51b4b1b458167da621a28fd0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b4a7323b3d3c5a349c3b1f50fcc0ecec') in 0.0566684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Board1.prefab
+  artifactKey: Guid(6f48f587721e4244785a5efc8b8049ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Board1.prefab using Guid(6f48f587721e4244785a5efc8b8049ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '211798c861fb36745151f36917a0cccd') in 0.0751856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Stylized Nature Environment/Textures/ground_a.psd
+  artifactKey: Guid(a4a1d2fdb8e0c5448838218145fb11c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Textures/ground_a.psd using Guid(a4a1d2fdb8e0c5448838218145fb11c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a908adf1bf353b7d5308a761ba2f057a') in 0.3792992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/mountain (3).prefab
+  artifactKey: Guid(b9061b7bfa145e24a91bde1cc531ee95) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/mountain (3).prefab using Guid(b9061b7bfa145e24a91bde1cc531ee95) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '834c25552d20291950cef6f40a23ee00') in 0.0741594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Stylized Nature Environment/PostProcessing Sample/Post-Processing Profile - Spring.asset
+  artifactKey: Guid(a28b07d26b56b3b4e9156f194a72312c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Stylized Nature Environment/PostProcessing Sample/Post-Processing Profile - Spring.asset using Guid(a28b07d26b56b3b4e9156f194a72312c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '789fe0766fc0f6d97d261d9520de21d6') in 0.0948723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Models/Road.prefab
+  artifactKey: Guid(fcfa0383682aba149aec1bd5aa290d65) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/Road.prefab using Guid(fcfa0383682aba149aec1bd5aa290d65) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f17474923cf420bb7a5c7ae7f0b2719f') in 0.1464399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Arrow_Board.prefab
+  artifactKey: Guid(cea0a9de4901a754e9f9469c9e1f2d79) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Arrow_Board.prefab using Guid(cea0a9de4901a754e9f9469c9e1f2d79) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'abfd4da7e9315d8b24db83cbc2170785') in 0.0495709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Prefabs/BlackWalnutTree_Spring.prefab
+  artifactKey: Guid(e061c3c2929a4ff4ea6e1fcc179c3f99) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Prefabs/BlackWalnutTree_Spring.prefab using Guid(e061c3c2929a4ff4ea6e1fcc179c3f99) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5a2aaa891e9e0d8deaf40dc0dc3862e2') in 0.0912413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HousePack/Perfabs/House10.prefab
+  artifactKey: Guid(2f66f74f1d9a5ea48beb0036581bc18d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/HousePack/Perfabs/House10.prefab using Guid(2f66f74f1d9a5ea48beb0036581bc18d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6b45edb185be572668d412e1f3ae544a') in 0.1209362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground_aground_a_normald261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(44e8efc007db67246a0dead2b712add9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground_aground_a_normald261c09ae55ba1e3.terrainlayer using Guid(44e8efc007db67246a0dead2b712add9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84c89b4dee5d8419e7b240b5482fff00') in 0.2372767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/sky.prefab
+  artifactKey: Guid(ce1c47babe5679143b24221e8878c4dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Stylized Nature Environment/Prefabs/sky.prefab using Guid(ce1c47babe5679143b24221e8878c4dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '854b6a0e7c56ca3485ba1eb6b92a1131') in 0.0975591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Race Track Pack/Prefabs/Road Props/Curve_Road_15.prefab
+  artifactKey: Guid(78de3d2cdaa416a489c78ab91a87d4dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Road Props/Curve_Road_15.prefab using Guid(78de3d2cdaa416a489c78ab91a87d4dd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '27329ffab5187c13824412046c75dcad') in 0.0958465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Race Track Pack/Models/Tunnels and Bridge Models.fbx
+  artifactKey: Guid(3d9e6e1336a0f254c92d82324601bf92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Models/Tunnels and Bridge Models.fbx using Guid(3d9e6e1336a0f254c92d82324601bf92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd56ed539475dadbc52d8991102f3feab') in 0.1572701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/HousePack/Perfabs/House8.prefab
+  artifactKey: Guid(84d816b90a9224a46a067fbdcdc7ad63) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/HousePack/Perfabs/House8.prefab using Guid(84d816b90a9224a46a067fbdcdc7ad63) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4230fa2b1703c1965cfae386eb9eb935') in 0.3057846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Race Track Pack/Prefabs/Road Props/Curve_Side_Boundries1.prefab
+  artifactKey: Guid(f15b80dbdb15e424d86fd101f66bd287) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Road Props/Curve_Side_Boundries1.prefab using Guid(f15b80dbdb15e424d86fd101f66bd287) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f5cc3c48c569902d7600c4f9606db699') in 0.3840135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Net_Bars1.prefab
+  artifactKey: Guid(f7c618019b6617942a37bff00c9b6e9b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Net_Bars1.prefab using Guid(f7c618019b6617942a37bff00c9b6e9b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2da86767c5c258e78318290609cf4702') in 0.4202451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Stylized Nature Environment/Materials/mountain.mat
+  artifactKey: Guid(9518d35be7bbb8b4c855ad20a600b5e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Materials/mountain.mat using Guid(9518d35be7bbb8b4c855ad20a600b5e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '497787ec7bc6e35b79f7dbe63c4d94bf') in 0.5163739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002657 seconds.
+  path: Assets/Wispy Sky/Demo/Demo.unity
+  artifactKey: Guid(4bc5adf546be30b40bf84376fcbb49dc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Wispy Sky/Demo/Demo.unity using Guid(4bc5adf546be30b40bf84376fcbb49dc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Wispy Sky/Demo/Demo.unity additively'
+Loaded scene 'Assets/Wispy Sky/Demo/Demo.unity'
+	Deserialize:            10.654 ms
+	Integration:            16.217 ms
+	Integration of assets:  0.043 ms
+	Thread Wait Time:       -0.000 ms
+	Total Operation Time:   26.914 ms
+ -> (artifact id: 'b24753e287b6038410277d58688f6ff0') in 0.1094597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92de8d4dcd2f3ffdf9732aa4d972ad75') in 0.1719165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/cruve_sm_Boundry.prefab
+  artifactKey: Guid(7d8ed8efc9fa33a46a3c345616de31a7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/cruve_sm_Boundry.prefab using Guid(7d8ed8efc9fa33a46a3c345616de31a7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e51b280e3cd759b3350367a317f88098') in 0.0814322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Models/Race track.prefab
+  artifactKey: Guid(31034ab4cd93f2d439a0e5906c907853) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/Race track.prefab using Guid(31034ab4cd93f2d439a0e5906c907853) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '95e97b592f9a1790ee507ab066748521') in 10.048978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1240
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004119 seconds.
+  path: Assets/Stylized Nature Environment/Nature/foliage05.psd
+  artifactKey: Guid(d7a333dce69eb6747bd4863e0eefe9e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/foliage05.psd using Guid(d7a333dce69eb6747bd4863e0eefe9e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1934c82398d5c9ffbe75d8f358419c76') in 2.4239041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004437 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Tent.prefab
+  artifactKey: Guid(e0deb6b51c44e774bbd2165c3d6b2ff5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Tent.prefab using Guid(e0deb6b51c44e774bbd2165c3d6b2ff5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '14bb434ea07cef9312dd914de479c507') in 0.7593003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002067 seconds.
+  path: Assets/Stylized Nature Environment/Textures/mountain_normals.psd
+  artifactKey: Guid(278ec6bcf4a478d4da8c6b06de57c0ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Textures/mountain_normals.psd using Guid(278ec6bcf4a478d4da8c6b06de57c0ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab0192d3b6099cabd7a0062929ed3ce3') in 0.467398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001857 seconds.
+  path: Assets/HousePack/Perfabs/House4.prefab
+  artifactKey: Guid(97686e80dd94cb04c9b02de1bf64121e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HousePack/Perfabs/House4.prefab using Guid(97686e80dd94cb04c9b02de1bf64121e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c170e09d680e19f2f5c63d0266b6f40') in 0.1972211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Stylized Nature Environment/Nature/foliage04.psd
+  artifactKey: Guid(57bf64a50bfaddf4f934b7ebb7a6ae79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/foliage04.psd using Guid(57bf64a50bfaddf4f934b7ebb7a6ae79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfbe351f21e2d6e93258f69f83843230') in 0.2637076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001027 seconds.
+  path: Assets/Wispy Sky/Materials/WispySkyboxMat2.mat
+  artifactKey: Guid(7b621f3d20f81af4785f8576da7910e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/Materials/WispySkyboxMat2.mat using Guid(7b621f3d20f81af4785f8576da7910e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf04fe6dd39bc95d609078531b06dbf7') in 0.2894107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/HousePack/Perfabs/House5.prefab
+  artifactKey: Guid(9177f38d5b69e5c4a9ff22283c83fb5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HousePack/Perfabs/House5.prefab using Guid(9177f38d5b69e5c4a9ff22283c83fb5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8832326bacb4a223aec82a2a586f1515') in 0.1336196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/safety_bollards.prefab
+  artifactKey: Guid(762234c7b79648f4d8a84767aa48931b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/safety_bollards.prefab using Guid(762234c7b79648f4d8a84767aa48931b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bbca6ff43d546bb2967273033f42a39f') in 0.0974745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Snow mountain tracks/terrain.asset
+  artifactKey: Guid(d216ab1bb2f42e44bb0c77a040f8eb11) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Snow mountain tracks/terrain.asset using Guid(d216ab1bb2f42e44bb0c77a040f8eb11) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Tree prefab at index 0 is missing.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 322]
+
+ -> (artifact id: 'f0d520e05d3bf37a27536fc386fd1b79') in 0.8500945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
   path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_Curve.prefab
-  artifactKey: Guid(156e5b2c2ee0a0d46bdb592a0b2ffac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_Curve.prefab using Guid(156e5b2c2ee0a0d46bdb592a0b2ffac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f9c3da15ee13c397400befac5bf818') in 0.059402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  artifactKey: Guid(156e5b2c2ee0a0d46bdb592a0b2ffac8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_Curve.prefab using Guid(156e5b2c2ee0a0d46bdb592a0b2ffac8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '846dcc05bceec9f5392d6f4e9c472869') in 0.0530734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge_Plane.prefab
+  artifactKey: Guid(3501a57d6613c9740a5e655d11249941) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge_Plane.prefab using Guid(3501a57d6613c9740a5e655d11249941) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '27687c3f8587f7c468048804bc0fcf7d') in 0.0494457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/sky.FBX
+  artifactKey: Guid(549f84bbc42ec39489d2d8627dddef59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Terrain/sky.FBX using Guid(549f84bbc42ec39489d2d8627dddef59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a1540e127e05fc04fce6337e05308b1') in 0.2338383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Race Track Pack/Prefabs/Track Props/Camp.prefab
+  artifactKey: Guid(c2886de63531849488f0629b9bedcf30) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Track Props/Camp.prefab using Guid(c2886de63531849488f0629b9bedcf30) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '35da8e6f4030fc51561b6f2e0f039238') in 0.1476305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Stylized Nature Environment/Nature/tree_a.fbx
+  artifactKey: Guid(d2bbfb4d2d8d8c549bbfc553b28464c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/tree_a.fbx using Guid(d2bbfb4d2d8d8c549bbfc553b28464c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '870bb5c4103c6f5f8d7bba94fb9eb256') in 0.68656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Race Track Pack/Prefabs/Road Props/Straight_road.prefab
+  artifactKey: Guid(536183fdff712144b9a8a110332ed888) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Road Props/Straight_road.prefab using Guid(536183fdff712144b9a8a110332ed888) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'da824cea139b76565dd08170da53d584') in 0.1488925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001633 seconds.
+  path: Assets/HousePack/Perfabs/House7.prefab
+  artifactKey: Guid(8e888a9b2caa8f34aa28745d02ea24fb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/HousePack/Perfabs/House7.prefab using Guid(8e888a9b2caa8f34aa28745d02ea24fb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'af244bceeb0fbafd298654b9b8ee21bd') in 0.181666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight.prefab
+  artifactKey: Guid(55fdb04009221c34bbaca5f23f62e824) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight.prefab using Guid(55fdb04009221c34bbaca5f23f62e824) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '710d835634d6826abe19b0a350f4819b') in 0.091048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Race Track Pack/Scenes/Demo Track Scene.unity
+  artifactKey: Guid(f931cc5dfdfd41d4f9a2fef1d01762b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Race Track Pack/Scenes/Demo Track Scene.unity using Guid(f931cc5dfdfd41d4f9a2fef1d01762b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd8f38008328879b1f1f6c9f8abb5104') in 0.2744269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a5277697de3643b7f7b2d32ce73dcee') in 6.347988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(58fd2fb57801e55459022669502ae99c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/New Terrain 1.asset using Guid(58fd2fb57801e55459022669502ae99c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a655e8ef2615682e06220e0f44bc8389') in 0.1662519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Snow mountain tracks/Resources/Models/road.asset
+  artifactKey: Guid(0a137320cb1170041a34e81b90fabe33) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Snow mountain tracks/Resources/Models/road.asset using Guid(0a137320cb1170041a34e81b90fabe33) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '099cd1ea264e0c517d9377b6afc927b1') in 0.143976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Drum.prefab
+  artifactKey: Guid(7191098f19a73a846b163d342a5dc264) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Drum.prefab using Guid(7191098f19a73a846b163d342a5dc264) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '68496e8521daef8a8e8fa33b679f549f') in 0.1560788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Square_Board_01.prefab
+  artifactKey: Guid(6bc3c2050c529444b8fc45662efe760d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Square_Board_01.prefab using Guid(6bc3c2050c529444b8fc45662efe760d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a2483b7580753fb001e9001a455edcbb') in 0.0901672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_rock 29cf194948a2a6572.terrainlayer
+  artifactKey: Guid(95f476ebf500b94478bd1f1bfaf233bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_TerrainAutoUpgrade/layer_rock 29cf194948a2a6572.terrainlayer using Guid(95f476ebf500b94478bd1f1bfaf233bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3af46a0a00b8b58b9bd0f9973363f3b3') in 0.5009471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/New Material.mat using Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6770870128578d77367f20af1177427e') in 1.3488099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox020006.tif
+  artifactKey: Guid(84db52690e0e44746957a79f52453f08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/Textures/SkyBox020006.tif using Guid(84db52690e0e44746957a79f52453f08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96cbb3c383412b220515bc0ca8a9665e') in 0.2002635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f3c5fe2d2bc216225d9ba04a53750436') in 0.1241617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Models/Copac1.prefab
+  artifactKey: Guid(e0bfc4a8738a37542b2fea4a22fe8651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Copac1.prefab using Guid(e0bfc4a8738a37542b2fea4a22fe8651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbcd47cce71b7a5fc30c9a5a7a512dab') in 0.1959158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ec3030a34ce92511727d91fc67bf79bd') in 0.0865919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001244 seconds.
+  path: Assets/Stylized Nature Environment/Prefabs/mountain.prefab
+  artifactKey: Guid(229d7fab587866f4c9a74f4a8a1f4707) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Stylized Nature Environment/Prefabs/mountain.prefab using Guid(229d7fab587866f4c9a74f4a8a1f4707) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '44072654a5b667bb732518282c7001ef') in 0.0771309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Banner_Flag.prefab
+  artifactKey: Guid(b8bff997296d9b94eab41324fb9d129c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Banner_Flag.prefab using Guid(b8bff997296d9b94eab41324fb9d129c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '25d074a40acb4e621edfe1208f388635') in 0.1310557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge.prefab
+  artifactKey: Guid(97f3b0528ef93a84d97ecdc7b2b804c9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Bridge.prefab using Guid(97f3b0528ef93a84d97ecdc7b2b804c9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3f8d866ab8f7baade4612f09adf79976') in 0.4935181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Materials/Materials/Grass.mat
+  artifactKey: Guid(aded9747537496842a5614571dfdeb16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Materials/Grass.mat using Guid(aded9747537496842a5614571dfdeb16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd16041a9bd93ec94727c235da1ef1adb') in 0.1128641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Gwangju_3D asset/Materials/kloppenheim_06_puresky_4k.mat
+  artifactKey: Guid(121efbdd4b55f0c4d9a44801053c9fd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gwangju_3D asset/Materials/kloppenheim_06_puresky_4k.mat using Guid(121efbdd4b55f0c4d9a44801053c9fd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a525a8d23db5552ab6d4cca59c32b3d3') in 0.9155207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Curve_Boundry_15.prefab
+  artifactKey: Guid(0fb85ecb9f70c9d4aab231f42e9d1ec2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Curve_Boundry_15.prefab using Guid(0fb85ecb9f70c9d4aab231f42e9d1ec2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '42a36100e0f5075bdc0bdcf4292576cf') in 0.0801286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox02b0005.tif
+  artifactKey: Guid(7046a0b4cc52e6e42b431fd577ba1de8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/Textures/SkyBox02b0005.tif using Guid(7046a0b4cc52e6e42b431fd577ba1de8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84dc4521cbe49449048b10e360175646') in 0.2122815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox020003.tif
+  artifactKey: Guid(d6d8ef656544dfc4d855e70eaa8a12d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/Textures/SkyBox020003.tif using Guid(d6d8ef656544dfc4d855e70eaa8a12d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1dcfb272c580bf886231bd26f9bd497') in 0.0991392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Snow mountain tracks/Resources/Models/poles.asset
+  artifactKey: Guid(ebda0cb17de4a154a806302ef3a464f2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Snow mountain tracks/Resources/Models/poles.asset using Guid(ebda0cb17de4a154a806302ef3a464f2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7a821bcde8ae7212c0f57ed86b90f3f4') in 0.2785696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/HousePack/Perfabs/House2.prefab
+  artifactKey: Guid(148c959f2024f81498bfe1a565c3a0cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HousePack/Perfabs/House2.prefab using Guid(148c959f2024f81498bfe1a565c3a0cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '266d27fcdb6e93c02234ffdbcd8d9810') in 0.1687123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Models/Grass.png
+  artifactKey: Guid(8fe7fb34a2b82764d91c41c0be35327b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Grass.png using Guid(8fe7fb34a2b82764d91c41c0be35327b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a53e8c32f987d047a4e66406d9d5db') in 0.0817742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Wispy Sky/ReadMe.txt
+  artifactKey: Guid(a9e5601e56111ab4c9051c8ce751c527) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/ReadMe.txt using Guid(a9e5601e56111ab4c9051c8ce751c527) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc93cbe11a4f943747844c016779c438') in 0.0928311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Board5.prefab
+  artifactKey: Guid(c7b0caa0d26a206409bed5af0974dae4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Board5.prefab using Guid(c7b0caa0d26a206409bed5af0974dae4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'db06abfb011ff2b1e32255e0843def10') in 0.1203595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Stylized Nature Environment/Nature/grass02.PSD
+  artifactKey: Guid(3cb61207a9bdaf9478ba2bf776f28693) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Nature Environment/Nature/grass02.PSD using Guid(3cb61207a9bdaf9478ba2bf776f28693) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4aa6e56084c5b41c9c8aa8d1b432982c') in 0.1488578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(58fd2fb57801e55459022669502ae99c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Terrain 1.asset using Guid(58fd2fb57801e55459022669502ae99c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55b8291f2e11d4a8d942a1f4cdb43d92') in 0.4068016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007007 seconds.
+  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Meshes/BlackWalnutTree_Autumn01.fbx
+  artifactKey: Guid(b2c7ee94550276d40a0aaddda90e6449) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Meshes/BlackWalnutTree_Autumn01.fbx using Guid(b2c7ee94550276d40a0aaddda90e6449) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21fde58dec6543ce9bc0e1295fccdeaa') in 1.7372023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004527 seconds.
+  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Meshes/BlackWalnutTree_Autumn02.fbx
+  artifactKey: Guid(20e643a2deb89ee4a994fa8aa4249204) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Meshes/BlackWalnutTree_Autumn02.fbx using Guid(20e643a2deb89ee4a994fa8aa4249204) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c30a2d0935e383e5be17322f32c8ebd1') in 1.7831515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001945 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1383477f9e3d0a9d1a686f0b443e21c5') in 2.8153304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001606 seconds.
+  path: Assets/Wispy Sky/Materials/WispySkyboxMobileMat.mat
+  artifactKey: Guid(03902d0b450add74fa144e9510fd0f85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/Materials/WispySkyboxMobileMat.mat using Guid(03902d0b450add74fa144e9510fd0f85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41999764cd1f5e43bb164ab493215070') in 4.6844203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/Wispy Sky/Textures/SkyBox020005.tif
+  artifactKey: Guid(813b8464c36e87d44b5c1a742bfb01d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wispy Sky/Textures/SkyBox020005.tif using Guid(813b8464c36e87d44b5c1a742bfb01d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fa3cc789134f45ec572d5b4902666b7') in 0.5104014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55b645b53de350c5450700668dbd35e4') in 1.2650724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001466 seconds.
+  path: Assets/HousePack/Scene/SimpleSettings.lighting
+  artifactKey: Guid(604f66d37922dd04bba68893badc380a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HousePack/Scene/SimpleSettings.lighting using Guid(604f66d37922dd04bba68893badc380a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '601d9c57fb3584c9d44c05d9cd78c14f') in 1.5306828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001481 seconds.
+  path: Assets/HousePack/Perfabs/House1.prefab
+  artifactKey: Guid(0021dc7ae6ca2cb4bb44c107245b122f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HousePack/Perfabs/House1.prefab using Guid(0021dc7ae6ca2cb4bb44c107245b122f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69ca2c18186d1d144852af17f3e7f780') in 0.7686975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002609 seconds.
+  path: Assets/Race Track Pack/Prefabs/Props Model/Curve_Boundry.prefab
+  artifactKey: Guid(efca8de8040822e4bb265328c79d3cd4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Race Track Pack/Prefabs/Props Model/Curve_Boundry.prefab using Guid(efca8de8040822e4bb265328c79d3cd4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'db4f40bfce083265cae854813c09ff28') in 0.7545312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001824 seconds.
+  path: Assets/Stylized Nature Environment/Terrain/Terrain.asset
+  artifactKey: Guid(cfb642e5ebbe6db4db73016b2dbe9c55) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Stylized Nature Environment/Terrain/Terrain.asset using Guid(cfb642e5ebbe6db4db73016b2dbe9c55) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEditor.AssetDatabase:LoadMainAssetAtPath_Injected <0x00069>
+	  at UnityEditor.AssetDatabase:LoadMainAssetAtPath <0x00242>
+	  at UnityEditor.Search.AssetIndexer:IndexProperties <0x0007a>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x00e22>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x00141>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00018>
+	  at <Module>:runtime_invoke_void__this___object <0x00092>
+=================================================================
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Mono;.;C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame;C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'ANDREEA'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe:Unity.exe (00007FF6DDA20000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.22.8101
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC98630000), size: 2191360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC96D80000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC95DB0000), size: 3903488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC96990000), size: 1761280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC96230000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4460
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC96F10000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4036
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC95C90000), size: 1159168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC95930000), size: 630784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC959D0000), size: 1118208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3593
+C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FFC98520000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.dll:Unity.dll (00007FFC172D0000), size: 86495232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.22.8101
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC95B20000), size: 1466368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFC95AF0000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC96E50000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC96360000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFC599C0000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFC90A30000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC97610000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFC646D0000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFC61780000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\etccompress.dll:etccompress.dll (00007FFC601D0000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC97160000), size: 1130496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4249
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC976C0000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC982F0000), size: 1724416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3958
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFC90AB0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2201.24001
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFC64FB0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC97280000), size: 3731456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC89690000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.40.33810.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC96410000), size: 4669440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFC89130000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.40.33810.0
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC97A20000), size: 8871936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4460
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFC89120000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.40.33810.0
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC97830000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC97740000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC8FFB0000), size: 2453504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFC96260000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFC90A00000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC929A0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC94130000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC92890000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4036
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC94390000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC655E0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC931E0000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC91020000), size: 1269760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC829B0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFC5A170000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFC612F0000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC8D0B0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFC90AA0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFC6DA70000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFC94700000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC92850000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFC94B90000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3810
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\OpenRL.dll:OpenRL.dll (00000244E6820000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000006EE10000), size: 856064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.30319.415
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\embree.dll:embree.dll (00007FFC316A0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000006EEF0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.30319.415
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFC955A0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\tbb.dll:tbb.dll (00007FFC905E0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFC94DA0000), size: 430080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000244E7470000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFC95550000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFC962D0000), size: 503808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4317
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC94930000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3958
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC92730000), size: 724992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFC93820000), size: 9449472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFC936E0000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3810
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFC96890000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFC95860000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFC8CEF0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFC92540000), size: 1769472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4455
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFC96F40000), size: 720896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFC92320000), size: 491520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFC97820000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFC90F40000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFC90F20000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFC8EDA0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFC94400000), size: 1056768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFC3ABD0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFC3ABB0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFC3A820000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFC6FD10000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3958
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFC3C310000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFC8F060000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4249
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFC8E1C0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FFC1F260000), size: 8814592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFC572B0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFC57710000), size: 364544 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFC8DD30000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4111
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFC95570000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFC854E0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\aticfx64.dll:aticfx64.dll (00007FFC7E570000), size: 1802240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.13044.0
+C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\atiuxp64.dll:atiuxp64.dll (00007FFC7E3C0000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.13044.0
+C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\atidxx64.dll:atidxx64.dll (00007FFC7C480000), size: 32731136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.13044.0
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFC90E80000), size: 618496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\amdihk64.dll:amdihk64.dll (00007FFC7C450000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.0.0.1788
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFC7BFF0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFC94E40000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFC86AD0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFC87820000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFC85040000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFC84C60000), size: 1015808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFC858C0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\MpOav.dll:MpOav.dll (00007FFC85830000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.24090.11
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFC57820000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.1.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\radeonrays.dll:radeonrays.dll (00007FFC576B0000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC20AC0000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC92F60000), size: 2301952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3593
+
+========== OUTPUTTING STACK TRACE ==================
+
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Mono;.;C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame;C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'ANDREEA'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe:Unity.exe (00007FF6DDA20000), size: 188416 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity_exe_x64.pdb', fileVersion: 6000.0.22.8101
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC98630000), size: 2191360 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC96D80000), size: 802816 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC95DB0000), size: 3903488 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC96990000), size: 1761280 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC96230000), size: 155648 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.22621.4460
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC96F10000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.22621.4036
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC95C90000), size: 1159168 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC95930000), size: 630784 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.22621.3374
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC959D0000), size: 1118208 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.22621.3593
+C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FFC98520000), size: 200704 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\IMM32.DLL', fileVersion: 10.0.22621.3374
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.dll:Unity.dll (00007FFC172D0000), size: 86495232 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.dll', fileVersion: 6000.0.22.8101
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC95B20000), size: 1466368 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFC95AF0000), size: 163840 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\bcrypt.dll', fileVersion: 10.0.22621.2506
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC96E50000), size: 729088 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC96360000), size: 684032 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFC599C0000), size: 8019968 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\libfbxsdk.dll', fileVersion: 2020.3.7.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFC90A30000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\s3tcompress.dll'
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC97610000), size: 684032 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.22621.4391
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFC646D0000), size: 1826816 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\ispc_texcomp.dll'
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFC61780000), size: 1433600 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\compress_bc7e.dll'
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\etccompress.dll:etccompress.dll (00007FFC601D0000), size: 5070848 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\etccompress.dll'
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC97160000), size: 1130496 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.22621.4249
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\FreeImage.dll', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC976C0000), size: 462848 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC982F0000), size: 1724416 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.22621.3958
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFC90AB0000), size: 53248 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\WinPixEventRuntime.dll', fileVersion: 1.0.2201.24001
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFC64FB0000), size: 1187840 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\umbraoptimizer64.dll'
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC97280000), size: 3731456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC89690000), size: 577536 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP140.dll', fileVersion: 14.40.33810.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC96410000), size: 4669440 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.22621.2506
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFC89130000), size: 122880 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.40.33810.0
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC97A20000), size: 8871936 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.22621.4460
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFC89120000), size: 49152 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.40.33810.0
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC97830000), size: 385024 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC97740000), size: 880640 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.22621.3672
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC8FFB0000), size: 2453504 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFC96260000), size: 442368 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\WINTRUST.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFC90A00000), size: 155648 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\d3d12.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC929A0000), size: 176128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\dwmapi.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC94130000), size: 57344 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC92890000), size: 1011712 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 10.0.22621.4036
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC94390000), size: 184320 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC655E0000), size: 1048576 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC931E0000), size: 212992 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC91020000), size: 1269760 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC829B0000), size: 184320 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFC5A170000), size: 8990720 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\SketchUpAPI.dll', fileVersion: 23.0.0.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFC612F0000), size: 1789952 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\NativeProxyHelper.dll'
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC8D0B0000), size: 40960 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFC90AA0000), size: 36864 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\WSOCK32.dll', fileVersion: 10.0.22621.1
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFC6DA70000), size: 499712 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\SketchUpCommonPreferences.dll', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFC94700000), size: 49152 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\Secur32.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC92850000), size: 225280 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\dxcore.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFC94B90000), size: 274432 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\SSPICLI.DLL', fileVersion: 10.0.22621.3810
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\OpenRL.dll:OpenRL.dll (00000244E6820000), size: 12779520 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\OpenRL.dll', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000006EE10000), size: 856064 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCR100.dll', fileVersion: 10.0.30319.415
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\embree.dll:embree.dll (00007FFC316A0000), size: 16711680 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\embree.dll', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000006EEF0000), size: 622592 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP100.dll', fileVersion: 10.0.30319.415
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFC955A0000), size: 319488 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\cfgmgr32.DLL', fileVersion: 10.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\tbb.dll:tbb.dll (00007FFC905E0000), size: 303104 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\tbb.dll', fileVersion: 2020.3.2022.1111
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFC94DA0000), size: 430080 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.DLL', fileVersion: 10.0.22621.2506
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000244E7470000), size: 61440 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\OpenRL_pthread.dll', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFC95550000), size: 73728 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\MSASN1.dll', fileVersion: 10.0.22621.2506
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFC962D0000), size: 503808 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\bcryptprimitives.dll', fileVersion: 10.0.22621.4317
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC94930000), size: 98304 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.22621.3958
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC92730000), size: 724992 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFC93820000), size: 9449472 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\windows.storage.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFC936E0000), size: 1306624 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\wintypes.dll', fileVersion: 10.0.22621.3810
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FFC96890000), size: 1019904 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\SHCORE.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFC95860000), size: 176128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\profapi.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFC8CEF0000), size: 36864 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\system32\IconCodecService.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFC92540000), size: 1769472 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\WindowsCodecs.dll', fileVersion: 10.0.22621.4455
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFC96F40000), size: 720896 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFC92320000), size: 491520 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\netprofm.dll', fileVersion: 10.0.22621.3527
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFC97820000), size: 36864 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\NSI.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFC90F40000), size: 102400 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 10.0.22621.2506
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFC90F20000), size: 126976 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL', fileVersion: 10.0.22621.2506
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFC8EDA0000), size: 98304 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\npmproxy.dll', fileVersion: 10.0.22621.3527
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFC94400000), size: 1056768 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFC3ABD0000), size: 94208 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\system32\napinsp.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFC3ABB0000), size: 110592 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\system32\pnrpnsp.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFC3A820000), size: 69632 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\winrnr.dll', fileVersion: 10.0.22621.1
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFC6FD10000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wshbth.dll', fileVersion: 10.0.22621.3958
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FFC3C310000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nlansp_c.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFC8F060000), size: 536576 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\fwpuclnt.dll', fileVersion: 10.0.22621.4249
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFC8E1C0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 10.0.22621.1
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FFC1F260000), size: 8814592 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\AMDUnityPlugin.DLL'
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFC572B0000), size: 1609728 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\NVUnityPlugin.DLL'
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFC57710000), size: 364544 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Data\Tools\astcenc-avx2.dll'
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFC8DD30000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MMDevApi.dll', fileVersion: 10.0.22621.4111
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFC95570000), size: 180224 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\DEVOBJ.dll', fileVersion: 10.0.22621.2506
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFC854E0000), size: 299008 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\aticfx64.dll:aticfx64.dll (00007FFC7E570000), size: 1802240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\aticfx64.dll', fileVersion: 30.0.13044.0
+C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\atiuxp64.dll:atiuxp64.dll (00007FFC7E3C0000), size: 233472 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\atiuxp64.dll', fileVersion: 30.0.13044.0
+C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\atidxx64.dll:atidxx64.dll (00007FFC7C480000), size: 32731136 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\u0380680.inf_amd64_af18cc8f47b8a04e\B374868\atidxx64.dll', fileVersion: 30.0.13044.0
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFC90E80000), size: 618496 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\apphelp.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\amdihk64.dll:amdihk64.dll (00007FFC7C450000), size: 196608 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\amdihk64.dll', fileVersion: 2.0.0.1788
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFC7BFF0000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\D3DSCache.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFC94E40000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USERENV.dll', fileVersion: 10.0.22621.3527
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFC86AD0000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemprox.dll', fileVersion: 10.0.22621.3672
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFC87820000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wbemcomn.dll', fileVersion: 10.0.22621.2506
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFC85040000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemsvc.dll', fileVersion: 10.0.22621.3672
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFC84C60000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\fastprox.dll', fileVersion: 10.0.22621.4391
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFC858C0000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\amsi.dll', fileVersion: 10.0.22621.3527
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\MpOav.dll:MpOav.dll (00007FFC85830000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\MpOav.dll', fileVersion: 4.18.24090.11
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFC57820000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\opencl.dll', fileVersion: 3.0.1.0
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\radeonrays.dll:radeonrays.dll (00007FFC576B0000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\radeonrays.dll'
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC20AC0000), size: 10756096 (result: 0), SymType: 'PDB', PDB: 'C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\mono-2.0-bdwgc.pdb'
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC92F60000), size: 2301952 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.22621.3593
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC17A7DF1B)
+0x00007FFC17A7DF1B (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC17A7C823)
+0x00007FFC17A7C823 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC17A8B845)
+0x00007FFC17A8B845 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC17A7CF7D)
+0x00007FFC17A7CF7D (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC17A8792E)
+0x00007FFC17A8792E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC174DB2CD)
+0x00007FFC174DB2CD (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC17FEE4AF)
+0x00007FFC17FEE4AF (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC180D314E)
+0x00007FFC180D314E (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC18BD53A5)
+0x00007FFC18BD53A5 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC18BD05B5)
+0x00007FFC18BD05B5 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC18BACD4B)
+0x00007FFC18BACD4B (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC182DC706)
+0x00007FFC182DC706 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC182DD899)
+0x00007FFC182DD899 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC182DD39D)
+0x00007FFC182DD39D (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC182AFAD1)
+0x00007FFC182AFAD1 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC182B0330)
+0x00007FFC182B0330 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC182B48E7)
+0x00007FFC182B48E7 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC174D151F)
+0x00007FFC174D151F (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC1781B4BF)
+0x00007FFC1781B4BF (Unity) (function-name not available)
+0x00000246E321C99A (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:LoadMainAssetAtPath_Injected (UnityEngine.Bindings.ManagedSpanWrapper&)
+0x00000246E321C523 (Mono JIT Code) UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+0x00000246E321B8DB (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+0x00000246E320A2A3 (Mono JIT Code) UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+0x00000246E3204DF2 (Mono JIT Code) UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+0x00000246E3204C89 (Mono JIT Code) UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+0x000002468205B0E3 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC20D4697E)
+0x00007FFC20D4697E (mono-2.0-bdwgc) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC20C88444)
+0x00007FFC20C88444 (mono-2.0-bdwgc) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC20C88530)
+0x00007FFC20C88530 (mono-2.0-bdwgc) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC18217FA4)
+0x00007FFC18217FA4 (Unity) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC181EFE73)
+0x00007FFC181EFE73 (Unity) (function-name not available)
+0x00007FFC198753BB (Unity) UnityMain
+0x00007FFC197EA132 (Unity) UnityMain
+0x00007FFC197E8FA8 (Unity) UnityMain
+0x00007FFC19786C71 (Unity) UnityMain
+0x00007FFC19738C34 (Unity) UnityMain
+0x00007FFC1981D72E (Unity) UnityMain
+0x00007FFC1980AFBA (Unity) UnityMain
+0x00007FFC1980C324 (Unity) UnityMain
+0x00007FFC1981BD4C (Unity) UnityMain
+0x00007FFC197642C6 (Unity) UnityMain
+0x00007FFC1976438B (Unity) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC18F711A9)
+0x00007FFC18F711A9 (Unity) (function-name not available)
+0x00007FFC195763C3 (Unity) UnityMain
+0x00007FF6DDA22FBA (Unity) __scrt_common_main_seh
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC96D9259D)
+0x00007FFC96D9259D (KERNEL32) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC9868AF38)
+0x00007FFC9868AF38 (ntdll) (function-name not available)
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/ANDREEA/AppData/Local/Temp/Unity/Editor/Crashes
