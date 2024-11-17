@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
 -name
 AssetImportWorker7
 -projectPath
-C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-59424
+52993
 -job-worker-count
 5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
-C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
+Successfully changed project path to: C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,14 +59,14 @@ C:/Users/ANDREEA/Desktop/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14324]  Target information:
+Player connection [15524]  Target information:
 
-Player connection [14324]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3793591098 [EditorId] 3793591098 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15524]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2632281214 [EditorId] 2632281214 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14324]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3793591098 [EditorId] 3793591098 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15524]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 2632281214 [EditorId] 2632281214 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14324] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14324] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15524] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,11 +77,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 22.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/RacingGame/RacingGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -93,44 +93,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.047715 seconds.
-- Loaded All Assemblies, in  4.780 seconds
+Registered in 0.006470 seconds.
+- Loaded All Assemblies, in  0.501 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.946 seconds
-Domain Reload Profiling: 7723ms
-	BeginReloadAssembly (2336ms)
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling: 1042ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (6ms)
-	RebuildCommonClasses (166ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (329ms)
-	LoadAllAssembliesAndSetupDomain (1903ms)
-		LoadAssemblies (2320ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (154ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1873ms)
-			TypeCache.Refresh (1865ms)
-				TypeCache.ScanAssembly (1284ms)
-			BuildScriptInfoCaches (2ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (2948ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (543ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2743ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (141ms)
-			SetLoadedEditorAssemblies (84ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (2194ms)
-			ProcessInitializeOnLoadMethodAttributes (246ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,144 +138,52 @@ Domain Reload Profiling: 7723ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 29.205 seconds
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.872 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 12.893 seconds
-Domain Reload Profiling: 42980ms
-	BeginReloadAssembly (2371ms)
+- Finished resetting the current domain, in  1.159 seconds
+Domain Reload Profiling: 3028ms
+	BeginReloadAssembly (916ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (182ms)
-	RebuildCommonClasses (128ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (245ms)
-	LoadAllAssembliesAndSetupDomain (27292ms)
-		LoadAssemblies (5399ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (841ms)
+		LoadAssemblies (658ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21718ms)
-			TypeCache.Refresh (12980ms)
-				TypeCache.ScanAssembly (9142ms)
-			BuildScriptInfoCaches (5819ms)
-			ResolveRequiredComponents (2870ms)
-	FinalizeReload (12914ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (81ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1160ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (8481ms)
+		SetupLoadedEditorAssemblies (770ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (95ms)
-			SetLoadedEditorAssemblies (259ms)
-			BeforeProcessingInitializeOnLoad (629ms)
-			ProcessInitializeOnLoadAttributes (5977ms)
-			ProcessInitializeOnLoadMethodAttributes (1478ms)
-			AfterProcessingInitializeOnLoad (37ms)
-			EditorAssembliesLoaded (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (89ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 20.20 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5897 unused Assets / (2.1 MB). Loaded Objects now: 6663.
-Memory consumption went from 181.9 MB to 179.8 MB.
-Total: 357.258900 ms (FindLiveObjects: 24.375500 ms CreateObjectMapping: 39.969200 ms MarkObjects: 155.237600 ms  DeleteObjects: 137.668800 ms)
+Unloading 5897 unused Assets / (3.8 MB). Loaded Objects now: 6666.
+Memory consumption went from 182.2 MB to 178.4 MB.
+Total: 103.588300 ms (FindLiveObjects: 4.772000 ms CreateObjectMapping: 4.087000 ms MarkObjects: 88.643200 ms  DeleteObjects: 6.077500 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 137150.688886 seconds.
-  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Textures/BlackWalnutTree_Autumn01_MaskMap.png
-  artifactKey: Guid(14b1e36639ae67f46a87c0b791bcb870) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Textures/BlackWalnutTree_Autumn01_MaskMap.png using Guid(14b1e36639ae67f46a87c0b791bcb870) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e70677aab0acb5dd62ff9092b2cc1974') in 14.699394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002452 seconds.
-  path: Assets/Race Track Pack/Prefabs/Props Model/Traffic_Cone.prefab
-  artifactKey: Guid(3a6674df6ff7d4e47967e98818a4c39e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Race Track Pack/Prefabs/Props Model/Traffic_Cone.prefab using Guid(3a6674df6ff7d4e47967e98818a4c39e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95c3483199de5c43dab4ac7f2650948c') in 0.6669367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight01.prefab
-  artifactKey: Guid(1c4b1f5cad67263458911cab3c08b372) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Race Track Pack/Prefabs/Tunnels and Bridge/Tunnels_straight01.prefab using Guid(1c4b1f5cad67263458911cab3c08b372) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '047a64829b8b4d7ea67e68da3e1af368') in 0.1822958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Race Track Pack/Terrian Textures/Grass one/NewLayer.terrainlayer
-  artifactKey: Guid(7b0ee4de43ba31f46af7d4dcf69202f2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Race Track Pack/Terrian Textures/Grass one/NewLayer.terrainlayer using Guid(7b0ee4de43ba31f46af7d4dcf69202f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '572ff8bc590e723e9657bc6eb83bf8ca') in 0.298323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Race Track Pack/Prefabs/Props Model/Booth.prefab
-  artifactKey: Guid(a3f28a27df16b534db887f23024e9d5e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Race Track Pack/Prefabs/Props Model/Booth.prefab using Guid(a3f28a27df16b534db887f23024e9d5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a3d371977b46d200fabf6c7d5a90364') in 0.0683455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Race Track Pack/Terrian Textures/Solid Rock/Solid Rock Normal.png
-  artifactKey: Guid(565079f00df92db46ae54fd80268e8e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Race Track Pack/Terrian Textures/Solid Rock/Solid Rock Normal.png using Guid(565079f00df92db46ae54fd80268e8e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75912d4a166b6b966fe50b54625d76f7') in 0.0826425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Race Track Pack/Prefabs/Props Model/Banner_Flag3.prefab
-  artifactKey: Guid(f2e5f8b77eb5e2e43952361026f3f9de) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Race Track Pack/Prefabs/Props Model/Banner_Flag3.prefab using Guid(f2e5f8b77eb5e2e43952361026f3f9de) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fc31d94ba9e61a60445f89274a8b77b7') in 0.1035565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Snow mountain tracks/Resources/Models/concrete.asset
-  artifactKey: Guid(12d78428deb775d448b5cc0326e43380) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Snow mountain tracks/Resources/Models/concrete.asset using Guid(12d78428deb775d448b5cc0326e43380) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd731b1e4dbd83407d73483b240f0918e') in 0.12931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/SkyColor.png
-  artifactKey: Guid(5278d7860f6cb6744a17aba626e6ddfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Gwangju_3D asset/Common_Assets/Bg_Preset/SkyColor.png using Guid(5278d7860f6cb6744a17aba626e6ddfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd5652d644b5e03d65f049c2b8ad5de8') in 0.2964443 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Snow mountain tracks/s1.unity
-  artifactKey: Guid(55357f48a3e2b4643b0983826b854f64) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Snow mountain tracks/s1.unity using Guid(55357f48a3e2b4643b0983826b854f64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be92498d774aabf5ba6a1925dc21a54f') in 0.0746663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Gwangju_3D asset/15_BlackWalnutTree/Textures/BlackWalnutTree_Bark_BaseMap.png
-  artifactKey: Guid(5eabe88b6ee6b7049a2f93e216320f90) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Gwangju_3D asset/15_BlackWalnutTree/Textures/BlackWalnutTree_Bark_BaseMap.png using Guid(5eabe88b6ee6b7049a2f93e216320f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '623e14a020ae19169bf4b67430d58c8c') in 0.1211301 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Race Track Pack/Models/Materials/keyakiPark2Shader.mat
-  artifactKey: Guid(f5ae211ac9edc424990b7a994adbc403) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Race Track Pack/Models/Materials/keyakiPark2Shader.mat using Guid(f5ae211ac9edc424990b7a994adbc403) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a4d3758f5ce5363de7efd774aa8a69b') in 0.8235918 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
