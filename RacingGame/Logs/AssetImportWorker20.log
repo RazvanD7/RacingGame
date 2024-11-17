@@ -1,0 +1,469 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.22f1 (001fa5a8e29a) revision 8101'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 5966 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+58852
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [840]  Target information:
+
+Player connection [840]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1170572910 [EditorId] 1170572910 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [840]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1170572910 [EditorId] 1170572910 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     2983 MB
+    Driver:   30.0.13044.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007947 seconds.
+- Loaded All Assemblies, in  6.416 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.277 seconds
+Domain Reload Profiling: 8693ms
+	BeginReloadAssembly (2858ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (215ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (436ms)
+	LoadAllAssembliesAndSetupDomain (2868ms)
+		LoadAssemblies (2887ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2812ms)
+			TypeCache.Refresh (2800ms)
+				TypeCache.ScanAssembly (1800ms)
+			BuildScriptInfoCaches (5ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1961ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (179ms)
+			SetLoadedEditorAssemblies (360ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (1078ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.164 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.385 seconds
+Domain Reload Profiling: 10522ms
+	BeginReloadAssembly (1710ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (5134ms)
+		LoadAssemblies (4498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1155ms)
+			TypeCache.Refresh (928ms)
+				TypeCache.ScanAssembly (802ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (3386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (509ms)
+			ProcessInitializeOnLoadAttributes (1551ms)
+			ProcessInitializeOnLoadMethodAttributes (314ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5896 unused Assets / (4.5 MB). Loaded Objects now: 6669.
+Memory consumption went from 183.2 MB to 178.7 MB.
+Total: 34.326000 ms (FindLiveObjects: 4.388700 ms CreateObjectMapping: 2.452400 ms MarkObjects: 19.281400 ms  DeleteObjects: 8.197500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203754.292079 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_G.prefab
+  artifactKey: Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_G.prefab using Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5b1550251b50880f76a9704e4cb43e5') in 13.107995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/idle_f_1_150f.fbx
+  artifactKey: Guid(0cac3c50cffd14044b6352edd76b2cfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/idle_f_1_150f.fbx using Guid(0cac3c50cffd14044b6352edd76b2cfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d01fd50ddeaa4d3d9c6d15fced63b6c') in 0.3784165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/Doctor_Male_B.prefab
+  artifactKey: Guid(314b13a2c4f89c74299eabc2a4c725c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/Doctor_Male_B.prefab using Guid(314b13a2c4f89c74299eabc2a4c725c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb81dd282a9309a49679150b47d0bb4b') in 0.1108903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Demo_Scenes/Scripts/City F Animator.controller
+  artifactKey: Guid(afe9de63454bbd448a9886ad5a285ae7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Demo_Scenes/Scripts/City F Animator.controller using Guid(afe9de63454bbd448a9886ad5a285ae7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b018f9ac40081777b742972a0d1ee53e') in 0.0894032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_m_basicWalk_30f.fbx
+  artifactKey: Guid(6599ecd64e0c14740acc7d5f8b82f1f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_m_basicWalk_30f.fbx using Guid(6599ecd64e0c14740acc7d5f8b82f1f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '449523503acfe66d73463a3d901e9018') in 0.092173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/dance_riverdance_60f.anim
+  artifactKey: Guid(68f221371cf19d04d863b97a57144e0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/dance_riverdance_60f.anim using Guid(68f221371cf19d04d863b97a57144e0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5278d804104ec7ff59e02329efc025e9') in 0.0442464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/locom_m_slowWalk_40f.anim
+  artifactKey: Guid(5514cf4c8eb9634418fbb77da0bc474f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/locom_m_slowWalk_40f.anim using Guid(5514cf4c8eb9634418fbb77da0bc474f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8191a6ee0d53b71c770f2af08b2c0296') in 0.035703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/idle_phoneTalking_180f.fbx
+  artifactKey: Guid(3975160a0bfe0d94098f615c8283969c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/idle_phoneTalking_180f.fbx using Guid(3975160a0bfe0d94098f615c8283969c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f363ee106b64caac1c83edf6091094e8') in 0.0597985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_f_jogging_30f.fbx
+  artifactKey: Guid(89b462e93e068774491b0384208f1d84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_f_jogging_30f.fbx using Guid(89b462e93e068774491b0384208f1d84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eb393f6443c1716387d6ebe62669f95') in 0.0535098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Female_K.fbx
+  artifactKey: Guid(b6dde1c6fee9fe4478fbb2c3a0c333b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Female_K.fbx using Guid(b6dde1c6fee9fe4478fbb2c3a0c333b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95d24945c2e88513b76fece4ee3a7ed1') in 0.0867245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/idle_m_1_200f.anim
+  artifactKey: Guid(295e81d07b1a6d64a8252ddafaedb8b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/idle_m_1_200f.anim using Guid(295e81d07b1a6d64a8252ddafaedb8b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96b9a9bc2f37cd0e7ef8a3f8614b5208') in 0.043727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/idle_selfcheck_1_300f.anim
+  artifactKey: Guid(e15f7a228bab0ca4a87f5ca0c829529c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/idle_selfcheck_1_300f.anim using Guid(e15f7a228bab0ca4a87f5ca0c829529c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5f90e1950202774585ed974ad3e4fd4') in 0.056111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/locom_f_basicWalk_30f.anim
+  artifactKey: Guid(d79bc0fd3d1c9a84ba727aad99231c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/locom_f_basicWalk_30f.anim using Guid(d79bc0fd3d1c9a84ba727aad99231c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d93088209cb93ad8021cf21dbf94f67') in 0.0375137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/Exercise_warmingUp_170f.anim
+  artifactKey: Guid(edc178fb93f9eec4186494917db79908) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/Exercise_warmingUp_170f.anim using Guid(edc178fb93f9eec4186494917db79908) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce0e85a5be05f127981ddc092ba44604') in 0.0453931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/police_Female_A.fbx
+  artifactKey: Guid(b6804d93e01b7124294eccd05c06e280) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/police_Female_A.fbx using Guid(b6804d93e01b7124294eccd05c06e280) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cb2533ca386270a38ea65fab1434187') in 0.0523541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_f_slowWalk_40f.fbx
+  artifactKey: Guid(05f0ae7c1293fb64b8b0323ca243c983) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_f_slowWalk_40f.fbx using Guid(05f0ae7c1293fb64b8b0323ca243c983) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8288ed8b44dc4af40ffcdda5925d28c') in 0.0427067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/exercise_warmingUp_170f.fbx
+  artifactKey: Guid(db4053d1a9e0999428ed31b384873e94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/exercise_warmingUp_170f.fbx using Guid(db4053d1a9e0999428ed31b384873e94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '402e6a11a621b25e5c9dc602b8a7b100') in 0.050327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/little_boy_B.prefab
+  artifactKey: Guid(87a7b985b15a4244091de35d7df9169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/little_boy_B.prefab using Guid(87a7b985b15a4244091de35d7df9169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b233ae9803a9ce007fbad6a1f97382') in 0.1042328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/locom_f_slowWalk_40f.anim
+  artifactKey: Guid(e41d8bd04681fe042bf04bacfd5074ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/locom_f_slowWalk_40f.anim using Guid(e41d8bd04681fe042bf04bacfd5074ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f208cf84388334d867dbe92fb290efdd') in 0.0367762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Textures/people_pal_s3.png
+  artifactKey: Guid(223a48eab21e52b48a3848058db4df4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Textures/people_pal_s3.png using Guid(223a48eab21e52b48a3848058db4df4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c165f31dfdb0fadbd66c7c2554f3f90') in 0.0804747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/dance_m_flossing_40f.anim
+  artifactKey: Guid(d00cdfa24148d014dbed6aad0445d251) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/dance_m_flossing_40f.anim using Guid(d00cdfa24148d014dbed6aad0445d251) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69c70dce89ea0e82bb59df642bb104f2') in 0.0418856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/dance_m_flossing_40f.fbx
+  artifactKey: Guid(a0c0a4d38207089439b8f72a52ad58d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/dance_m_flossing_40f.fbx using Guid(a0c0a4d38207089439b8f72a52ad58d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11f700bfbacd206add62f51344d2959f') in 0.0610662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Materials/mobile/m_people_pal.mat
+  artifactKey: Guid(1a77ecb7d10f8e344a05c9cf5a49b8b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Materials/mobile/m_people_pal.mat using Guid(1a77ecb7d10f8e344a05c9cf5a49b8b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85dde79bf89d982c06d576b0d6e3c1fe') in 0.0332432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Female_K.prefab
+  artifactKey: Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Female_K.prefab using Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d26886f4a1b93d342f20319f239f8f0') in 0.0945586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/idle_f_2_190f.fbx
+  artifactKey: Guid(ea917c84da27c514c89479d48da89544) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/idle_f_2_190f.fbx using Guid(ea917c84da27c514c89479d48da89544) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cce2a67515f956ef41e67e62784a8f2') in 0.0574629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Animations/locom_f_phoneWalking_40f.anim
+  artifactKey: Guid(0458ebeb27617be499b112242edafb5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Animations/locom_f_phoneWalking_40f.anim using Guid(0458ebeb27617be499b112242edafb5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6aff110900f0a649c913bb599f05a392') in 0.0452018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/Tpose_lpMale_rig.FBX
+  artifactKey: Guid(379bbfa8110786c49953a0e1575f1f7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/Tpose_lpMale_rig.FBX using Guid(379bbfa8110786c49953a0e1575f1f7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff51e3223beb419ff6ee34eb86d5d977') in 0.0559389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_f_basicWalk_30f.fbx
+  artifactKey: Guid(a9ce97152abb7fc41ae2a29525434851) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/animated/locom_f_basicWalk_30f.fbx using Guid(a9ce97152abb7fc41ae2a29525434851) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '986aa10827e9407120ede7782bb4a160') in 0.0703673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_G.fbx
+  artifactKey: Guid(50c8fe73844fb0a42bdb72b9873224e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_G.fbx using Guid(50c8fe73844fb0a42bdb72b9873224e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c52fdc6b0f29148f8bfa6ff929de3aa') in 0.0631207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.516845 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_G.fbx
+  artifactKey: Guid(50c8fe73844fb0a42bdb72b9873224e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_G.fbx using Guid(50c8fe73844fb0a42bdb72b9873224e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cbfcee44673bef0d46c89aac666efa1') in 0.1374721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_K.fbx
+  artifactKey: Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_K.fbx using Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e73cd8f6a5f94d0cee1441c5fb823eb') in 0.0734271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.287463 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_G.prefab
+  artifactKey: Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_G.prefab using Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da7d2b72efd1d2070135533360c3f1c6') in 0.1031945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_K.prefab
+  artifactKey: Guid(2435736d6adca23458edd7c80c901e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_K.prefab using Guid(2435736d6adca23458edd7c80c901e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b01a0d186905f766721695e97435e198') in 0.0894269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/police_Female_A.prefab
+  artifactKey: Guid(f0ac6fb9ada49f24683e3eca20786103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/police_Female_A.prefab using Guid(f0ac6fb9ada49f24683e3eca20786103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f1b5f4277b29bc8eadba04d4e9f7bfa') in 0.093799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.246662 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_K.fbx
+  artifactKey: Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Meshes/casual_Male_K.fbx using Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f52188ba4a8c83ced97a32ff02b1118c') in 0.0855644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
