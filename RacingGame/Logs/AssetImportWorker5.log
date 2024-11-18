@@ -355,3 +355,282 @@ Memory consumption went from 301.0 MB to 296.9 MB.
 Total: 10.317900 ms (FindLiveObjects: 0.766000 ms CreateObjectMapping: 0.527700 ms MarkObjects: 6.483400 ms  DeleteObjects: 2.539200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5888 unused Assets / (4.0 MB). Loaded Objects now: 6691.
+Memory consumption went from 301.2 MB to 297.2 MB.
+Total: 10.501500 ms (FindLiveObjects: 0.723600 ms CreateObjectMapping: 1.224600 ms MarkObjects: 6.288900 ms  DeleteObjects: 2.262900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+
+Native extension for WindowsStandalone target not found
+UnityEngine.UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.131 seconds
+Domain Reload Profiling: 1920ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1131ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (135ms)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5895 unused Assets / (4.4 MB). Loaded Objects now: 6693.
+Memory consumption went from 301.0 MB to 296.7 MB.
+Total: 12.881100 ms (FindLiveObjects: 0.707300 ms CreateObjectMapping: 1.173100 ms MarkObjects: 7.909700 ms  DeleteObjects: 3.089600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 389247.609356 seconds.
+  path: Assets/Scripts/CarMovement.cs
+  artifactKey: Guid(79a123deff8086940a1e8baef6be88d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarMovement.cs using Guid(79a123deff8086940a1e8baef6be88d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a743efbe21a382124ba1e06bd21c788d') in 0.033212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.773 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+
+Native extension for WindowsStandalone target not found
+UnityEngine.UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.081 seconds
+Domain Reload Profiling: 1852ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (188ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1082ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (639ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (489ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (126ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5895 unused Assets / (4.0 MB). Loaded Objects now: 6697.
+Memory consumption went from 301.6 MB to 297.5 MB.
+Total: 10.137700 ms (FindLiveObjects: 0.767100 ms CreateObjectMapping: 0.514700 ms MarkObjects: 6.528100 ms  DeleteObjects: 2.326500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.999 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+
+Native extension for WindowsStandalone target not found
+UnityEngine.UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
+  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
+  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\razva\Desktop\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
+Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+
+
+(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.145 seconds
+Domain Reload Profiling: 2144ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (553ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (210ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (681ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (131ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5895 unused Assets / (4.0 MB). Loaded Objects now: 6699.
+Memory consumption went from 301.6 MB to 297.6 MB.
+Total: 8.801500 ms (FindLiveObjects: 0.658700 ms CreateObjectMapping: 0.498300 ms MarkObjects: 5.500100 ms  DeleteObjects: 2.143000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1695.876519 seconds.
+  path: Assets/Race Car Package/Material/Mat.4.mat
+  artifactKey: Guid(8c87c81c55e0bd741810619fadc00b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material/Mat.4.mat using Guid(8c87c81c55e0bd741810619fadc00b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c809e8dd89b5f657f1ec0571345a9f8') in 0.6011181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
