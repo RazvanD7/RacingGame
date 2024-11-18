@@ -1,6 +1,6 @@
 Using pre-set license
 Built from 'trunk' branch; Version is '6000.0.22f1 (001fa5a8e29a) revision 8101'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 5966 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16236 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+C:/Users/razva/Desktop/RacingGame/RacingGame
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52093
+50493
 -job-worker-count
 5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
-C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+Successfully changed project path to: C:/Users/razva/Desktop/RacingGame/RacingGame
+C:/Users/razva/Desktop/RacingGame/RacingGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,14 +59,12 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15048]  Target information:
+Player connection [15604]  Target information:
 
-Player connection [15048]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 211044032 [EditorId] 211044032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15604]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 1057273817 [EditorId] 1057273817 [Version] 1048832 [Id] WindowsEditor(7,LenovoLegion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15048]  * "[IP] 192.168.138.12 [Port] 0 [Flags] 2 [Guid] 211044032 [EditorId] 211044032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [15048] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15604] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,60 +75,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/razva/Desktop/RacingGame/RacingGame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
-    Vendor:   ATI
-    VRAM:     2983 MB
-    Driver:   30.0.13044.0
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4630
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009003 seconds.
-- Loaded All Assemblies, in  1.194 seconds
+Registered in 0.004242 seconds.
+- Loaded All Assemblies, in  0.377 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.773 seconds
-Domain Reload Profiling: 1964ms
-	BeginReloadAssembly (581ms)
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (94ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (135ms)
-	LoadAllAssembliesAndSetupDomain (357ms)
-		LoadAssemblies (577ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (348ms)
-			TypeCache.Refresh (344ms)
-				TypeCache.ScanAssembly (310ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (774ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (679ms)
+		SetupLoadedEditorAssemblies (404ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (14ms)
-			ProcessInitializeOnLoadAttributes (461ms)
-			ProcessInitializeOnLoadMethodAttributes (138ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,8 +136,8 @@ Domain Reload Profiling: 1964ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.439 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.490 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -148,162 +146,104 @@ Native extension for WindowsStandalone target not found
 <RI> Initializing input.
 New input system (experimental) initialized
 Using Windows.Gaming.Input
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.539 seconds
-Domain Reload Profiling: 5978ms
-	BeginReloadAssembly (1333ms)
+- Finished resetting the current domain, in  1.147 seconds
+Domain Reload Profiling: 2632ms
+	BeginReloadAssembly (729ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (1000ms)
-		LoadAssemblies (639ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (665ms)
+		LoadAssemblies (514ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (482ms)
-			TypeCache.Refresh (361ms)
-				TypeCache.ScanAssembly (328ms)
-			BuildScriptInfoCaches (101ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (68ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (3541ms)
+	FinalizeReload (1147ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2773ms)
+		SetupLoadedEditorAssemblies (867ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (2206ms)
-			ProcessInitializeOnLoadMethodAttributes (456ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (701ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5898 unused Assets / (4.8 MB). Loaded Objects now: 6680.
-Memory consumption went from 261.3 MB to 256.6 MB.
-Total: 31.180800 ms (FindLiveObjects: 3.449000 ms CreateObjectMapping: 2.296900 ms MarkObjects: 14.282000 ms  DeleteObjects: 11.141900 ms)
+Unloading 5898 unused Assets / (4.2 MB). Loaded Objects now: 6673.
+Memory consumption went from 262.2 MB to 258.0 MB.
+Total: 9.314000 ms (FindLiveObjects: 0.791600 ms CreateObjectMapping: 0.612900 ms MarkObjects: 5.591700 ms  DeleteObjects: 2.316400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 212940.859810 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Fog 1.mat
-  artifactKey: Guid(b46c743b9eeca0848a76f88a27533580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Fog 1.mat using Guid(b46c743b9eeca0848a76f88a27533580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df89f677849f82f3027e931983f506c2') in 1.4380181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 388311.723655 seconds.
+  path: Assets/Models/dispersed crowd.prefab
+  artifactKey: Guid(22de2c0dc2679e74382978e43a6f08d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/dispersed crowd.prefab using Guid(22de2c0dc2679e74382978e43a6f08d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a05d3f1e154e4360d0ef7fa51515409') in 4.1476453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3871
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Fog 2.mat
-  artifactKey: Guid(a5c0e6fac2968b4418b1c11a7a5d7a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Fog 2.mat using Guid(a5c0e6fac2968b4418b1c11a7a5d7a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a2fc27bcb9a48af49b71345124fbf7') in 0.0528967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Race track.prefab
+  artifactKey: Guid(31034ab4cd93f2d439a0e5906c907853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Race track.prefab using Guid(31034ab4cd93f2d439a0e5906c907853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree casual_Female_G couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree femeie couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree pin must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'f690d3c67d61edcb0b26cdb42c7ab95a') in 16.7006971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1472
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Night Sky.mat
-  artifactKey: Guid(f304e465a0a7f604e9a8dc831eda7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Night Sky.mat using Guid(f304e465a0a7f604e9a8dc831eda7072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4f88adb072035c4a491833fa70bc0a1') in 0.2297218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Race track Variant.prefab
+  artifactKey: Guid(0a850a300f6385242ade10e418295363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Race track Variant.prefab using Guid(0a850a300f6385242ade10e418295363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree casual_Female_G couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree femeie couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree pin must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'c70de7a915676a9ee319d431b0b1bab0') in 0.2093698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2384
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Rain.mat
-  artifactKey: Guid(e025ffd46e8d8f7469ea124f4b2f52bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Rain.mat using Guid(e025ffd46e8d8f7469ea124f4b2f52bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce4f10ef13ffa906b96235702aa551bd') in 5.9783065 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Road.prefab
+  artifactKey: Guid(fcfa0383682aba149aec1bd5aa290d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Road.prefab using Guid(fcfa0383682aba149aec1bd5aa290d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cb35e5ba53957fb7af745babab4595c') in 0.0344143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Grass.png
+  artifactKey: Guid(8fe7fb34a2b82764d91c41c0be35327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Grass.png using Guid(8fe7fb34a2b82764d91c41c0be35327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '423d88053bf567ca6e4a6b9c2ef6ce5d') in 0.0332862 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.820 seconds
-Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
-UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/mountain (3).prefab
+  artifactKey: Guid(b9061b7bfa145e24a91bde1cc531ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mountain (3).prefab using Guid(b9061b7bfa145e24a91bde1cc531ee95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd380ec4ed21cd6706b540636f6a7e639') in 0.0251466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
-
-(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
-
-Native extension for WindowsStandalone target not found
-UnityEngine.UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
-
-
-(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.307 seconds
-Domain Reload Profiling: 8138ms
-	BeginReloadAssembly (1604ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (380ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (568ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (3003ms)
-		LoadAssemblies (2835ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (613ms)
-			TypeCache.Refresh (37ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (539ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (3309ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1988ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (1602ms)
-			ProcessInitializeOnLoadMethodAttributes (208ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (439ms)
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5894 unused Assets / (4.4 MB). Loaded Objects now: 6760.
-Memory consumption went from 263.5 MB to 259.1 MB.
-Total: 50.470100 ms (FindLiveObjects: 3.778200 ms CreateObjectMapping: 4.746800 ms MarkObjects: 34.209000 ms  DeleteObjects: 7.718900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

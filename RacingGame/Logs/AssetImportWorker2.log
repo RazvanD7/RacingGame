@@ -1,6 +1,6 @@
 Using pre-set license
 Built from 'trunk' branch; Version is '6000.0.22f1 (001fa5a8e29a) revision 8101'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 5966 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16236 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.22f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+C:/Users/razva/Desktop/RacingGame/RacingGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52093
+50493
 -job-worker-count
 5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
-C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
+Successfully changed project path to: C:/Users/razva/Desktop/RacingGame/RacingGame
+C:/Users/razva/Desktop/RacingGame/RacingGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,14 +59,12 @@ C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14808]  Target information:
+Player connection [35496]  Target information:
 
-Player connection [14808]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1613444047 [EditorId] 1613444047 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35496]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 555211094 [EditorId] 555211094 [Version] 1048832 [Id] WindowsEditor(7,LenovoLegion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14808]  * "[IP] 192.168.138.12 [Port] 0 [Flags] 2 [Guid] 1613444047 [EditorId] 1613444047 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HT3IUV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [14808] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14808] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35496] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,59 +75,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 33.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.22f1 (001fa5a8e29a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ANDREEA/Desktop/ex/RacingGame/RacingGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/razva/Desktop/RacingGame/RacingGame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
-    Vendor:   ATI
-    VRAM:     2983 MB
-    Driver:   30.0.13044.0
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4630
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008471 seconds.
-- Loaded All Assemblies, in  1.189 seconds
+Registered in 0.354256 seconds.
+- Loaded All Assemblies, in  7.831 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.081 seconds
-Domain Reload Profiling: 2267ms
-	BeginReloadAssembly (493ms)
+- Finished resetting the current domain, in 13.707 seconds
+Domain Reload Profiling: 21541ms
+	BeginReloadAssembly (6709ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (110ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (157ms)
-	LoadAllAssembliesAndSetupDomain (400ms)
-		LoadAssemblies (490ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (450ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (6704ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (388ms)
-			TypeCache.Refresh (384ms)
-				TypeCache.ScanAssembly (344ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1082ms)
+		AnalyzeDomain (585ms)
+			TypeCache.Refresh (581ms)
+				TypeCache.ScanAssembly (537ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (13715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (963ms)
+		SetupLoadedEditorAssemblies (12954ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
+			InitializePlatformSupportModulesInManaged (117ms)
 			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (19ms)
-			ProcessInitializeOnLoadAttributes (632ms)
-			ProcessInitializeOnLoadMethodAttributes (243ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (12352ms)
+			ProcessInitializeOnLoadMethodAttributes (454ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,8 +136,8 @@ Domain Reload Profiling: 2267ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.829 seconds
-Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+- Loaded All Assemblies, in 10.532 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -148,309 +146,416 @@ Native extension for WindowsStandalone target not found
 <RI> Initializing input.
 New input system (experimental) initialized
 Using Windows.Gaming.Input
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.074 seconds
-Domain Reload Profiling: 8904ms
-	BeginReloadAssembly (2129ms)
+- Finished resetting the current domain, in  2.085 seconds
+Domain Reload Profiling: 12604ms
+	BeginReloadAssembly (1906ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (2467ms)
-		LoadAssemblies (1973ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (8506ms)
+		LoadAssemblies (8390ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (873ms)
-			TypeCache.Refresh (594ms)
-				TypeCache.ScanAssembly (505ms)
-			BuildScriptInfoCaches (228ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (4076ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (176ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2086ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2742ms)
+		SetupLoadedEditorAssemblies (1396ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (19ms)
-			BeforeProcessingInitializeOnLoad (217ms)
-			ProcessInitializeOnLoadAttributes (2083ms)
-			ProcessInitializeOnLoadMethodAttributes (391ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (974ms)
+			ProcessInitializeOnLoadMethodAttributes (299ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 8.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5898 unused Assets / (4.2 MB). Loaded Objects now: 6678.
-Memory consumption went from 259.8 MB to 255.6 MB.
-Total: 59.766100 ms (FindLiveObjects: 26.030300 ms CreateObjectMapping: 2.193600 ms MarkObjects: 16.758000 ms  DeleteObjects: 14.772300 ms)
+Unloading 5898 unused Assets / (4.2 MB). Loaded Objects now: 6670.
+Memory consumption went from 260.5 MB to 256.3 MB.
+Total: 12.230400 ms (FindLiveObjects: 0.904700 ms CreateObjectMapping: 0.670000 ms MarkObjects: 7.071100 ms  DeleteObjects: 3.582900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 212582.509503 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Prefabs/Fog.prefab
-  artifactKey: Guid(26df1790f16fe554d9a716318f364f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Prefabs/Fog.prefab using Guid(26df1790f16fe554d9a716318f364f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faeec1a59013f252aa724a657cbb6b50') in 16.7221619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Prefabs/Dust particles.prefab
-  artifactKey: Guid(ea64430592733624283cdbd1b1932d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Prefabs/Dust particles.prefab using Guid(ea64430592733624283cdbd1b1932d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54d253f5a8d4e339a2e3e0a1a44a7c63') in 13.1721474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.113434 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/GodRays.mat
-  artifactKey: Guid(52e50885009bd5945bacd496f4fa991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/GodRays.mat using Guid(52e50885009bd5945bacd496f4fa991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c28830a0b3518d20e0c275967a617dca') in 0.2139336 seconds
+  Time since last request: 387919.136031 seconds.
+  path: Assets/Scenes/NewLayer.terrainlayer
+  artifactKey: Guid(54276ac581364434a98121707a37bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewLayer.terrainlayer using Guid(54276ac581364434a98121707a37bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253691c070f91511fe9c7701e521d2b6') in 0.0787519 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.447930 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Dust.mat
-  artifactKey: Guid(6d02204149247884a91479ca843d6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Dust.mat using Guid(6d02204149247884a91479ca843d6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0183c7f40bb0bb0519f41772bcbd434a') in 0.0389267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.413 seconds
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
-UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
-
-
-(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
-
-Native extension for WindowsStandalone target not found
-UnityEngine.UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
-
-
-(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.130 seconds
-Domain Reload Profiling: 7564ms
-	BeginReloadAssembly (3021ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (722ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (7ms)
-		CreateAndSetChildDomain (1002ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (2263ms)
-		LoadAssemblies (1987ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (773ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (655ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (2131ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1209ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (981ms)
-			ProcessInitializeOnLoadMethodAttributes (98ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (187ms)
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5894 unused Assets / (4.0 MB). Loaded Objects now: 6761.
-Memory consumption went from 263.8 MB to 259.9 MB.
-Total: 18.841300 ms (FindLiveObjects: 1.493500 ms CreateObjectMapping: 0.972500 ms MarkObjects: 11.745400 ms  DeleteObjects: 4.626000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 248.260976 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Textures/Plane_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(ab1d0710d24604947917ecff02441637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Textures/Plane_DefaultMaterial_BaseColor.png using Guid(ab1d0710d24604947917ecff02441637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de15a66c5a658dda6013b7a896460a03') in 0.3623686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Textures/Plane_DefaultMaterial_Roughness.png
-  artifactKey: Guid(b07340e7745c3314fa97989569af0ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Textures/Plane_DefaultMaterial_Roughness.png using Guid(b07340e7745c3314fa97989569af0ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8de2724ae570aec373cb16bb5c0259f0') in 0.0366102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Textures/Plane_DefaultMaterial_Normal.png
-  artifactKey: Guid(d527cade06d76564ca1d7fbb82d193b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Textures/Plane_DefaultMaterial_Normal.png using Guid(d527cade06d76564ca1d7fbb82d193b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1df6166b3d0949206a6dabef9f5b154') in 0.0672904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.177956 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Textures/Terrain Layers
-  artifactKey: Guid(cf1c43e59e389b8498c1b5b9b5554c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Textures/Terrain Layers using Guid(cf1c43e59e389b8498c1b5b9b5554c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69673b6c22eb84d8b330626ca364b651') in 0.0018358 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e558c8c85613258435ddd67936fe25') in 0.000771 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018983 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Textures/Terrain Layers/Concreate Dirt Concreate Dirt  Concrete Dirt.terrainlayer
-  artifactKey: Guid(c4b8096c273b4bc4aaafeef477b0482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Textures/Terrain Layers/Concreate Dirt Concreate Dirt  Concrete Dirt.terrainlayer using Guid(c4b8096c273b4bc4aaafeef477b0482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f6b3e0e0d58640503bf1e28c0f68e3') in 0.0876025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.268490 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Advance Ground Fog.mat
-  artifactKey: Guid(88224bb6a4691e2438382daa61e7f6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Advance Ground Fog.mat using Guid(88224bb6a4691e2438382daa61e7f6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b509acee3b5739c51a9909b6c29709e') in 9.8382654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Cody Dreams/Fake Mist/Matereal/Ground.mat
-  artifactKey: Guid(2952e16643973274dbf5c5e01559b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cody Dreams/Fake Mist/Matereal/Ground.mat using Guid(2952e16643973274dbf5c5e01559b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '071013483dba2ba464eece8a371e76d4') in 6.2380383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.745279 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4874755047e894d7e1b9dfcdc92326e') in 0.2176339 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0008937 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.733 seconds
-Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
-UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_rock 29cf194948a2a6572.terrainlayer
+  artifactKey: Guid(95f476ebf500b94478bd1f1bfaf233bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_rock 29cf194948a2a6572.terrainlayer using Guid(95f476ebf500b94478bd1f1bfaf233bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '839054c10444025e1bd67c68b216700f') in 0.0232503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 325.815475 seconds.
+  path: Assets/Race Track Pack/Documentation
+  artifactKey: Guid(86705e57c1704064f948887f19ef2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Track Pack/Documentation using Guid(86705e57c1704064f948887f19ef2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1485e48ceee1fc830930ec902792041a') in 0.0015874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+========================================================================
+Received Import Request.
+  Time since last request: 15.141083 seconds.
+  path: Assets/Race Car Package/Race Car Package.fbx
+  artifactKey: Guid(6df8799e47834944c85abaf3e659049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Race Car Package.fbx using Guid(6df8799e47834944c85abaf3e659049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21f93f041537c36a28b7b2a114ef0e8d') in 0.6084876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
 
-Native extension for WindowsStandalone target not found
-UnityEngine.UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+========================================================================
+Received Import Request.
+  Time since last request: 1.479253 seconds.
+  path: Assets/Race Car Package/Material
+  artifactKey: Guid(aa7ccc8bc4004c0439f1b9a67c74de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material using Guid(aa7ccc8bc4004c0439f1b9a67c74de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5593290893ce3aea98ef086c6101a7f') in 0.0007849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-UnityException: GetBool is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'FeedbackWindow'.
-See "Script Serialization" page in the Unity Manual for further details.
-  at (wrapper managed-to-native) UnityEditor.EditorPrefs.GetBool_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,bool)
-  at UnityEditor.EditorPrefs.GetBool (System.String key, System.Boolean defaultValue) [0x0002a] in <82d5427af9d84542ac1bab8e50c139c7>:0 
-  at CodyDreams.Developer.FeedbackWindow..cctor () [0x00000] in C:\Users\ANDREEA\Desktop\ex\RacingGame\RacingGame\Assets\Cody Dreams\Fake Mist\Editor\FeedbackWindow.cs:21 
-Rethrow as TypeInitializationException: The type initializer for 'CodyDreams.Developer.FeedbackWindow' threw an exception.
+========================================================================
+Received Import Request.
+  Time since last request: 0.056508 seconds.
+  path: Assets/Race Car Package/Material/Mat.1.mat
+  artifactKey: Guid(8902692426981254b8661f5cecfc5f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material/Mat.1.mat using Guid(8902692426981254b8661f5cecfc5f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98b1a010103a64a4ab54e379c6cccd4') in 0.0499784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Race Car Package/Material/Mat.5.mat
+  artifactKey: Guid(ccd77042b04a3d84b91af0d9d68ea643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material/Mat.5.mat using Guid(ccd77042b04a3d84b91af0d9d68ea643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b52c42a0681de541851892735e6cbfe9') in 0.01213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-(Filename: Assets/Cody Dreams/Fake Mist/Editor/FeedbackWindow.cs Line: 21)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Race Car Package/Material/Mat.5_1.mat
+  artifactKey: Guid(9d52757b5149f364db7b49be4d33c5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material/Mat.5_1.mat using Guid(9d52757b5149f364db7b49be4d33c5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68ea6e2e7d09e53dad7f8c806973313b') in 0.0134522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.833 seconds
-Domain Reload Profiling: 9580ms
-	BeginReloadAssembly (3014ms)
-		ExecutionOrderSort (5ms)
-		DisableScriptedObjects (458ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (3ms)
-		CreateAndSetChildDomain (1565ms)
-	RebuildCommonClasses (123ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (2479ms)
-		LoadAssemblies (2478ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (660ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (594ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (3836ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2178ms)
-			LogAssemblyErrors (1ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (34ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (1748ms)
-			ProcessInitializeOnLoadMethodAttributes (169ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (450ms)
-Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5896 unused Assets / (4.8 MB). Loaded Objects now: 6790.
-Memory consumption went from 265.9 MB to 261.0 MB.
-Total: 56.691900 ms (FindLiveObjects: 5.225200 ms CreateObjectMapping: 5.091500 ms MarkObjects: 29.893800 ms  DeleteObjects: 16.473400 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Race Car Package/Material/Mat.5_3.mat
+  artifactKey: Guid(0cd8815a1ce46844b92fa77324f1f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material/Mat.5_3.mat using Guid(0cd8815a1ce46844b92fa77324f1f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c0df5763bbbd7405db6de9e22d936d') in 0.0114109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Race Car Package/Material/Mat.5_2.mat
+  artifactKey: Guid(21650591fb6286b4293be426dc0621bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Material/Mat.5_2.mat using Guid(21650591fb6286b4293be426dc0621bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '779dcd7bd667083b47cd6b215126b929') in 0.0106764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.415206 seconds.
+  path: Assets/Race Car Package/Textures/black car.png
+  artifactKey: Guid(f3f74805af07d3d419f5294e98b10cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Textures/black car.png using Guid(f3f74805af07d3d419f5294e98b10cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd333a5de1e277b05aa049d62eb945061') in 0.0393359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Race Car Package/Textures/red car.png
+  artifactKey: Guid(ebbdaafe7efaa9a4c97f8c8ca1ca66ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Textures/red car.png using Guid(ebbdaafe7efaa9a4c97f8c8ca1ca66ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e6700d8edbd8132960fa7e977bc25b8') in 0.035416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481822 seconds.
+  path: Assets/Race Car Package/Prefab/Car.prefab
+  artifactKey: Guid(663342408c5e6e24f8e0cb584631c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car.prefab using Guid(663342408c5e6e24f8e0cb584631c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c0217b0f0565bb391a1ac1f76286586') in 0.0203459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_1_2.prefab
+  artifactKey: Guid(f87abe0105f1b7347bd1b3b54fba32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_1_2.prefab using Guid(f87abe0105f1b7347bd1b3b54fba32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1eb737883da54a209e245df82c20c92') in 0.0255529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Race Car Package/Prefab/Car_2.prefab
+  artifactKey: Guid(e49a8bcd44434de4fbd15b46bf3fd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car_2.prefab using Guid(e49a8bcd44434de4fbd15b46bf3fd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a631e35aee625dfce9dc209744b9e5') in 0.0305164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Race Car Package/Prefab/wheel.prefab
+  artifactKey: Guid(4b47622e62d11cd47a61987872f40f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel.prefab using Guid(4b47622e62d11cd47a61987872f40f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adb2ac0be7ea0f703f2268768dde7b39') in 0.0389081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.260160 seconds.
+  path: Assets/Models/Copac1.prefab
+  artifactKey: Guid(e0bfc4a8738a37542b2fea4a22fe8651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Copac1.prefab using Guid(e0bfc4a8738a37542b2fea4a22fe8651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bccb3fb97a98411fadf65567829c2918') in 9.791983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Race track Variant 1.prefab
+  artifactKey: Guid(24e8723645e437f4ca9090a0c5ae767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Race track Variant 1.prefab using Guid(24e8723645e437f4ca9090a0c5ae767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree casual_Female_G couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree femeie couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree pin must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'cfa42807e0c3d4a5b354da33af618506') in 6.378422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3461
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Models/Tunnels_straight01 Variant.prefab
+  artifactKey: Guid(2a1ad5c925fed954a9d56ba59a39d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tunnels_straight01 Variant.prefab using Guid(2a1ad5c925fed954a9d56ba59a39d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316ffdaa3c0a222162efff2cef6ecf65') in 0.030408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Race track Variant 3.prefab
+  artifactKey: Guid(48344bb760a649948a5008f63fb3a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Race track Variant 3.prefab using Guid(48344bb760a649948a5008f63fb3a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree casual_Female_G couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree femeie couldn't be instanced because the prefab contains no valid mesh renderer.
+The tree pin must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '726de2afc08cc163ab365dbe54e81235') in 10.8355818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122570
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.802796 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(1e742e29fbc609e409c0176bb45ad450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(1e742e29fbc609e409c0176bb45ad450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96d3262c1f5cb1a06bb5689df356a175') in 0.002255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.358432 seconds.
+  path: Assets/A_piece_of_nature
+  artifactKey: Guid(7fcf56cfb56cd2e46a53b4ef154e873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A_piece_of_nature using Guid(7fcf56cfb56cd2e46a53b4ef154e873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef0bf549ad7ca7d9c56f67a2f795948') in 0.0011759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.537844 seconds.
+  path: Assets/BEDRILL
+  artifactKey: Guid(d630fa0b869f1fc41b9aeea5a3845f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL using Guid(d630fa0b869f1fc41b9aeea5a3845f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c788a96227f97b39a403dce72483d936') in 0.0011935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515746 seconds.
+  path: Assets/Cody Dreams
+  artifactKey: Guid(8d5e462ab859d6b4791c1feedec8cb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams using Guid(8d5e462ab859d6b4791c1feedec8cb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '936902d5bcc7696617c67a811f8aad0a') in 0.0010887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623215 seconds.
+  path: Assets/DenysAlmaral
+  artifactKey: Guid(ba98480aaf623aa458fc3b4b6f4383ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral using Guid(ba98480aaf623aa458fc3b4b6f4383ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b7d6bbc3ee8e5dbac812c6f3616d49') in 0.0010997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417433 seconds.
+  path: Assets/Gwangju_3D asset
+  artifactKey: Guid(0955e1cd94c600249a01af1e60dd86d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset using Guid(0955e1cd94c600249a01af1e60dd86d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '637a4814665d6084e9f962c07fedd39d') in 0.0011088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.455664 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(ef771948248933544aa1a89aee15e99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ef771948248933544aa1a89aee15e99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb6a8c5cba83865fe34ac77bcbc2a441') in 0.0009801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346628 seconds.
+  path: Assets/Models
+  artifactKey: Guid(6ff0e4447d4066a4cb4bdd1a29a36fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(6ff0e4447d4066a4cb4bdd1a29a36fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7b9f3544186bb1e4acffcfd41c67f17') in 0.0010893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.023925 seconds.
+  path: Assets/Gwangju_3D asset/kloppenheim_06_puresky_4k.hdr
+  artifactKey: Guid(f784370d14550b34bac12b8b98376375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gwangju_3D asset/kloppenheim_06_puresky_4k.hdr using Guid(f784370d14550b34bac12b8b98376375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ede068170dc6b015711ae5091cd0116') in 0.0992995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.040305 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(9616f7b40e71eb14ea0935b36374ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '098989b93c31f3270b1ea938fe6b507c') in 0.0211974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.591187 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.0008011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592555 seconds.
+  path: Assets/Snow mountain tracks
+  artifactKey: Guid(797aef0c8fa351d45ad56f8970abd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snow mountain tracks using Guid(797aef0c8fa351d45ad56f8970abd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7425034548d442c75e9929ad6df741fd') in 0.0009708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.654370 seconds.
+  path: Assets/Stylized Nature Environment
+  artifactKey: Guid(a862497dc3b6ae34080e809ee429020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment using Guid(a862497dc3b6ae34080e809ee429020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e088236b0bfbd17d084382ef60be5149') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.441825 seconds.
+  path: Assets/Race Car Package/Race Car Package.fbx
+  artifactKey: Guid(6df8799e47834944c85abaf3e659049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Race Car Package.fbx using Guid(6df8799e47834944c85abaf3e659049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7fb3ed7d338df680c0228ff11f2035') in 2.6625031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.052926 seconds.
+  path: Assets/Race Car Package/Prefab
+  artifactKey: Guid(35c7cc2c39568a54f9560940c2b5addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab using Guid(35c7cc2c39568a54f9560940c2b5addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b981f64c707fd755aa4eb209a0aac076') in 0.0017049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446901 seconds.
+  path: Assets/Race Car Package/Textures
+  artifactKey: Guid(f1fcee65f48782d46bab2d03856f6311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Textures using Guid(f1fcee65f48782d46bab2d03856f6311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8488ae67d27dd42662a4dac2e5daaffb') in 0.0007603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193468 seconds.
+  path: Assets/Race Car Package/Prefab/Car.prefab
+  artifactKey: Guid(663342408c5e6e24f8e0cb584631c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car.prefab using Guid(663342408c5e6e24f8e0cb584631c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec90ddc48ec6f59c97509856e03b2768') in 0.0387391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_1_2.prefab
+  artifactKey: Guid(f87abe0105f1b7347bd1b3b54fba32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_1_2.prefab using Guid(f87abe0105f1b7347bd1b3b54fba32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c208c3f8c5a66459afc493a4f4b6e4') in 0.0390665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Race Car Package/Prefab/Car_3.prefab
+  artifactKey: Guid(7270d86670806f44a9c24b44dfc8c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car_3.prefab using Guid(7270d86670806f44a9c24b44dfc8c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d16c0780661516f45f833a14dd74f69') in 0.0403762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Race Car Package/Prefab/Car_2.prefab
+  artifactKey: Guid(e49a8bcd44434de4fbd15b46bf3fd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/Car_2.prefab using Guid(e49a8bcd44434de4fbd15b46bf3fd304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3758fd8908972ff5243c0c62ad9dba') in 0.0315387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_2.prefab
+  artifactKey: Guid(133793f8b950077418f7313e1a49e233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_2.prefab using Guid(133793f8b950077418f7313e1a49e233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ac9ad7b6157a505632e17362858162') in 0.0211458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Race Car Package/Prefab/wheel.prefab
+  artifactKey: Guid(4b47622e62d11cd47a61987872f40f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel.prefab using Guid(4b47622e62d11cd47a61987872f40f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8982453ee2ca90cfbf755463d04f0364') in 0.0225514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Race Car Package/Prefab/wheel_1.prefab
+  artifactKey: Guid(cddf6b9cf5244094594a0b53cff07cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Car Package/Prefab/wheel_1.prefab using Guid(cddf6b9cf5244094594a0b53cff07cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b3aa79f8724ba821871e51b50fe3062') in 0.0219358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
