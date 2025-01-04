@@ -815,3 +815,79 @@ Memory consumption went from 186.5 MB to 181.3 MB.
 Total: 31.455300 ms (FindLiveObjects: 2.466000 ms CreateObjectMapping: 2.242100 ms MarkObjects: 16.087200 ms  DeleteObjects: 10.655400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2204.646960 seconds.
+  path: Assets/Images/Arrow.png
+  artifactKey: Guid(09eaf7b6d3a2e6c469d9b14d59818d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Arrow.png using Guid(09eaf7b6d3a2e6c469d9b14d59818d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6a96905aa37a7df02abcad88e396e06') in 3.3373661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.017363 seconds.
+  path: Assets/Cody Dreams/Fake Mist/Matereal/Advance Ground Fog.mat
+  artifactKey: Guid(88224bb6a4691e2438382daa61e7f6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Fake Mist/Matereal/Advance Ground Fog.mat using Guid(88224bb6a4691e2438382daa61e7f6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '638740172dc54fab68dd32c83c418738') in 14.1942066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Cody Dreams/Fake Mist/Matereal/Fog 2.mat
+  artifactKey: Guid(a5c0e6fac2968b4418b1c11a7a5d7a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Fake Mist/Matereal/Fog 2.mat using Guid(a5c0e6fac2968b4418b1c11a7a5d7a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1674b7028f8b881028b5eab793bf80f6') in 0.1623509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/A_piece_of_nature/Materials/Chest.mat
+  artifactKey: Guid(3d92c13a401928e4da7e22e76225a5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A_piece_of_nature/Materials/Chest.mat using Guid(3d92c13a401928e4da7e22e76225a5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deacdde1e0a82ab7222b48ae300d4b5b') in 0.2861163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Cody Dreams/Fake Mist/Matereal/Dust.mat
+  artifactKey: Guid(6d02204149247884a91479ca843d6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Fake Mist/Matereal/Dust.mat using Guid(6d02204149247884a91479ca843d6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3afd9fc3ff5272c89d4056a5bef1a4f') in 0.1066658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/BEDRILL/Track_Environment_Free/Materials/Environment_Free_Material.mat
+  artifactKey: Guid(b191529dbda163843876d34008f8139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BEDRILL/Track_Environment_Free/Materials/Environment_Free_Material.mat using Guid(b191529dbda163843876d34008f8139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99403d6505c134dcfb475227e8ff4e5a') in 0.0911031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Cody Dreams/Fake Mist/Shaders/Fog shader.shadergraph
+  artifactKey: Guid(83b80f0a5a09ee94c8bdf84ebb9fd8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cody Dreams/Fake Mist/Shaders/Fog shader.shadergraph using Guid(83b80f0a5a09ee94c8bdf84ebb9fd8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5664d84d46727903a1bcd2e321ca357') in 14.7135321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Race Track Pack/Models/Materials/birchBlowing1Shader.mat
+  artifactKey: Guid(4492c4fb1c0ab4945b343d353eee777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Race Track Pack/Models/Materials/birchBlowing1Shader.mat using Guid(4492c4fb1c0ab4945b343d353eee777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08a38b29b55ab661ffb1c2ef0684ce6b') in 0.096571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Stylized Nature Environment/Nature/Materials/Default.mat
+  artifactKey: Guid(2772c74f6361879409221eb29b573be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Nature Environment/Nature/Materials/Default.mat using Guid(2772c74f6361879409221eb29b573be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b1146b5f29102dd365deb8da31255f') in 0.1090612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
