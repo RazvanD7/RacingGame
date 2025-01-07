@@ -1,9 +1,17 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 
 public class CarController : MonoBehaviour
 {
+    internal enum driver
+    {
+        AI,
+        keyboard
+    }
+    [SerializeField] driver driverController;
     public enum Axel
     {
         Front,
@@ -33,16 +41,35 @@ public class CarController : MonoBehaviour
 
     private Rigidbody carRb;
 
+    public trackWaypoints waypoints;
+    public Transform currentWaypoint;
+    public List<Transform> nodes = new List<Transform>();
+    [Range(0, 10)] public int distanceOffset;
+    [Range(0, 5)] public float sterrForce;
+    [Range(0, 5)] public float speedForce;
     void Start()
     {
         carRb = GetComponent<Rigidbody>();
         carRb.centerOfMass = _centerOfMass;
     }
 
-    void Update()
+    public void Awake()
     {
-        GetInputs();
-        AnimateWheels();
+        waypoints = GameObject.FindGameObjectWithTag("Path").GetComponent<trackWaypoints>();
+
+        nodes = waypoints.nodes;
+    }
+
+    void FixedUpdate()
+    {
+        calculateDistanceOfWayPoints();
+        switch (driverController)
+        {
+            case driver.AI: AIDrive();
+                break;
+            case driver.keyboard: keyboardDrive();
+                break;
+        }
     }
 
     void LateUpdate()
@@ -106,5 +133,42 @@ public class CarController : MonoBehaviour
             wheel.wheelModel.transform.position = pos;
             wheel.wheelModel.transform.rotation = rot;
         }
+    }
+    private void AIDrive()
+    {
+        moveInput = speedForce;
+        AISteer();
+    }
+    private void keyboardDrive()
+    {
+        GetInputs();
+        AnimateWheels();
+    }
+    private void calculateDistanceOfWayPoints()
+    {
+        Vector3 position = gameObject.transform.position;
+        float distance = Mathf.Infinity;
+
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            Vector3 differance = nodes[i].transform.position - position; 
+            float currentDistance = differance.magnitude;
+            if(currentDistance < distance)
+            {
+                currentWaypoint = nodes[i + distanceOffset];
+                distance = currentDistance;
+            }
+        }
+    }
+    private void AISteer()
+    {
+        Vector3 relative = transform.InverseTransformPoint(currentWaypoint.transform.position);
+        relative /= relative.magnitude;
+
+        steerInput = (relative.x / relative.magnitude) * -sterrForce;
+    }
+    public void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(currentWaypoint.transform.position, 3);
     }
 }
