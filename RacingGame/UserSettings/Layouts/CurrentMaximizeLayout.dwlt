@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17329
+  controlID: 35961
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17330
+  controlID: 35962
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17331
+  controlID: 35963
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -242,10 +242,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e41a1000
-      m_LastClickedID: 1055460
-      m_ExpandedIDs: 46dbf5ff0889faffe68afaff288efaff1a90faffcc93faff6895faffec95faff9498faff1899faff8c9afaff24e9fcffa8e9fcff26eafcffaaeafcfff6ecfcff7aedfcfff8edfcff70eefcffa0f0fcff46f3fcff06f4fcffdef4fcffeef4fcff66f5fcff0a5bffffd05fffff2e63ffffdcfaffff30b20d008eb20d0098b20d00bab20d0026b40d0030b40d0052b40d009aba0d00a4ba0d00c8ba0d0060bb0d006abb0d008ebb0d0072bc0d007cbc0d00a0bc0d0026bd0d009cbd0d00c8bd0d006abe0d00debe0d000abf0d009e1a1000
+      scrollPos: {x: 0, y: 1528}
+      m_SelectedIDs: 64a8eeff
+      m_LastClickedID: -1136540
+      m_ExpandedIDs: 64a8eeffc62af1ffc82af1ffdc31f1ffec32f1ffb836f1ff3c37f1ffa685f3ff4887f3ff06d6f5ff88d6f5ff0cd7f5ff46dbf5ff0889faffe68afaff288efaff1a90faffcc93faff6895faffec95faff9498faff1899faff8c9afaff24e9fcffa8e9fcff26eafcffaaeafcfff6ecfcff7aedfcfff8edfcff70eefcffa0f0fcff46f3fcff06f4fcffdef4fcffeef4fcff66f5fcff0a5bffffd05fffff2e63ffffdcfaffff30b20d008eb20d0098b20d00bab20d0026b40d0030b40d0052b40d009aba0d00a4ba0d00c8ba0d0060bb0d006abb0d008ebb0d0072bc0d007cbc0d00a0bc0d0026bd0d009cbd0d00c8bd0d006abe0d00debe0d000abf0d009e1a10004c2110007a211000fc271000ec2810003e291000542910009e2a1000d42a10001a2b1000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -792,9 +792,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 729.8874, y: 305.29767, z: 47.641174}
+    m_Target: {x: 423.80243, y: 271.13458, z: 910.8585}
     speed: 2
-    m_Value: {x: 729.8874, y: 305.29767, z: 47.641174}
+    m_Value: {x: 423.80243, y: 271.13458, z: 910.8585}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -840,13 +840,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.023713935, y: -0.97613835, z: -0.14424749, w: -0.16137883}
+    m_Target: {x: 0.1139284, y: -0.16522999, z: 0.019387862, w: 0.9795952}
     speed: 2
-    m_Value: {x: -0.023713935, y: 0.97613835, z: 0.14424747, w: 0.16137882}
+    m_Value: {x: 0.11391341, y: -0.16520825, z: 0.01938531, w: 0.97946626}
   m_Size:
-    m_Target: 479.29175
+    m_Target: 1548.2435
     speed: 2
-    m_Value: 501.87616
+    m_Value: 1548.2435
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -951,7 +951,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -961,15 +961,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\razva\Desktop\RacingGame\RacingGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9eac0d00
-    m_LastClickedID: 896158
+    scrollPos: {x: 0, y: 28}
+    m_SelectedIDs: a0ac0d00
+    m_LastClickedID: 896160
     m_ExpandedIDs: 000000003a35040000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1025,9 +1025,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e41a1000
-    m_LastClickedInstanceID: 1055460
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 64a8eeff
+    m_LastClickedInstanceID: -1136540
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b8ac000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
