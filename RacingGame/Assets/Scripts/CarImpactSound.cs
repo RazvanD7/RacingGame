@@ -18,7 +18,7 @@ public class CarImpactSound : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
     
-        if (collision.relativeVelocity.magnitude > impactThreshold)
+        if (!collision.gameObject.CompareTag("NoCollison") && collision.relativeVelocity.magnitude > impactThreshold)
         {
            
             audioSource.PlayOneShot(impactSound);

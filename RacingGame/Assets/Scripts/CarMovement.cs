@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class CarController : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class CarController : MonoBehaviour
     float steerInput;
 
     private Rigidbody carRb;
+    private bool halfRace;
 
     public trackWaypoints waypoints;
     public Transform currentWaypoint;
@@ -51,6 +53,7 @@ public class CarController : MonoBehaviour
     {
         carRb = GetComponent<Rigidbody>();
         carRb.centerOfMass = _centerOfMass;
+        halfRace = false;
     }
 
     public void Awake()
@@ -171,4 +174,16 @@ public class CarController : MonoBehaviour
     {
         Gizmos.DrawWireSphere(currentWaypoint.transform.position, 3);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("CheckPoint"))
+        {
+            halfRace = true;
+        }
+        if (other.gameObject.CompareTag("FinishRace") && halfRace)
+        {
+            SceneManager.LoadSceneAsync(2);
+        }
+    }
+
 }
