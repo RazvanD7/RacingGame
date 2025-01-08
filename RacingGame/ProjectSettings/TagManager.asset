@@ -8,6 +8,12 @@ TagManager:
   - NoCollison
   - CheckPoint
   - FinishRace
+  - Enemy
+  - gameManager
+  - path
+  - toDestroy
+  - AI
+  - road
   layers:
   - Default
   - TransparentFX

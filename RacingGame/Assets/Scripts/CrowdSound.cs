@@ -18,7 +18,7 @@ public class CrowdSound : MonoBehaviour
     {
         float distance = Vector3.Distance(carTransform.position, transform.position);
 
-        Debug.Log("Distance to car: " + distance); 
+        //Debug.Log("Distance to car: " + distance); 
 
         if (distance <= maxDistance)
         {

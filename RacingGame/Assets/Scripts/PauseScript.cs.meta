@@ -1,2 +1,21 @@
 fileFormatVersion: 2
 guid: cb7d107f7177f3e499b7b5a45bdaa1ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pauseMenu: {instanceID: 0}
+  - RR: {instanceID: 0}
+  - neeedle: {instanceID: 0}
+  - startPosition: {instanceID: 0}
+  - kph: {instanceID: 0}
+  - currentPosition: {instanceID: 0}
+  - gearNum: {instanceID: 0}
+  - nitrusSlider: {instanceID: 0}
+  - uiList: {fileID: 2000874581952617962, guid: af3cd6de49916af408d2007268adb01b, type: 3}
+  - uiListFolder: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
